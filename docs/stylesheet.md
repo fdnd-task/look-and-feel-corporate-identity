@@ -2,7 +2,7 @@
 
 ## Stylesheet
 
-Je hebt tijdens de sprint planningn in Figma een styleguide gemaakt en een gezamenlijke stylesheet met de huisstijl van de opdrachtgever. 
+Je hebt tijdens de sprint planning in Figma een styleguide gemaakt en een gezamenlijke stylesheet met de huisstijl van de opdrachtgever. 
 
 Vandaag ga je leren hoe je een gestructureerd CSS file kan maken met classes en custom properties. 
 
