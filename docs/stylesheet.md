@@ -51,7 +51,7 @@ Sches het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig a
 
 
 ### Opdracht (advanced)
-Als je al ervaring hebt met custom properties kun je proberen een Light en Dark mode te maken. Een Light en Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
+Als je al ervaring hebt met custom properties kun je proberen een Light & Dark mode te maken. Een Light & Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
 
 Implementeer een Dark Theme op basis van custom properties die werkt op basis van de voorkeuren van de gebruiker. Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
 
