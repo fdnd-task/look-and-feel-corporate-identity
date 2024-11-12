@@ -155,7 +155,35 @@ Een ID selector krijgt `0 1 0 0`.
 En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voorang op de id-, class- en element-selectors. 
 
 ![](specificity-css-tricks.png)  
-*Browsers berekenen welke styling belangrijk is. Hoe specifieker de styling hoe hoger de specificity.*
+*Browsers berekenen welke styling belangrijk is. Hoe specifieker de styling hoe hoger de specificity. Bron [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)*
+
+Hoe kan je de specificity uitrekenen? Stel je hebt deze HTML:
+```html
+<ul id="summer-drinks">
+   <li class="favorite">Whiskey and Ginger Ale</li>
+   <li>Wheat Beer</li>
+   <li>Mint Julip</li>
+</ul>
+```
+De `<li>` items zijn zwart door deze gecombineerde element en id selector:
+```css
+ul#summer-drinks li {
+   font-weight: normal;
+   font-size: 12px;
+   color: black;
+}
+```
+Nu wil je een `<li>` een andere kleur geven met de class `favorite`. 
+Wordt de kleur nu rood?
+```css
+.favorite {
+  color: red;
+  font-weight: bold;
+}
+```
+De `<li>` blijft zwart want de selector `ul#summer-drinks li` is specifieker dan de class selector `.favorite`. 
+De weight van de class selector is `0 0 1 0`, de weight van de gecombineerde selector is `0 1 0 2`. 10 < 102 ...
+
 
 ### Opdracht
 Voor deze opdracht ga je spelen met de CSS principes _cascade_ en _specificity_ om te leren hoe dat werkt. 
