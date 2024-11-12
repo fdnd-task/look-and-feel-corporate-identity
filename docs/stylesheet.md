@@ -44,7 +44,7 @@ Jullie hebben een gezamenlijke stylesheet gemaakt met de styling voor de kleuren
 Bekijk welke elementen in de gezamenlijke stylsheet geschreven kunnen worden met custom properties. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen. Als waardes vaker voorkomen, kun je custom properties gebruiken.
 
 Bespreek met een mentor de custom properties, classnames en code conventies die jullie hebben toegepast. 
-Sches het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig aanpassingen over bijvoorbeeld classnames en code conventies.
+Schets het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig aanpassingen over bijvoorbeeld classnames en code conventies.
 
 ### Bronnen
 
