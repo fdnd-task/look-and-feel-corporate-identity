@@ -4,20 +4,19 @@
 
 Je hebt in Figma een styleguide gemaakt, nu ga je een gestructureerd CSS file maken met als doel dat jullie één stylesheet kunnen gebruiken in je individuele project voor veelvoorkomende CSS selectoren en properties.
 
-## Aanpak
-Op het whiteboard gezamenlijk een breakdown maken van de CSS voor veel voorkomende huisstijl componenten van bestaande websites; kleuren, typografie, links, buttons, headings en formulier elementen.
+## Opdrachten
 
-Bedenk in teams consistente en betekenisvolle namen voor de verschillende huisstijl componenten en gebruik deze namen voor de classes in de gedeelde stylesheet.
+- CSS strategie
+- Classes
+- Custom properties
+- CSS inladen
 
-Verdeel de huisstijl componenten van de styleguide onder de teamleden en werk ze allemaal uit in de stylesheet van de [gezamenlijke styleguide repo](https://github.com/fdnd-task/look-and-feel-styleguide).
 
-Maak afspraken (code conventions) over het beter structureren van de CSS van de gemeenschappelijke, generieke stylesheet.
 
-Refactor jouw eigen specifieke stylesheet(s). Alle CSS die reeds in de generieke stylesheet staat kan weggehaald worden, en je neemt de code conventies van het team over. 
 
-### Analyse
 
-#### CSS strategie
+### CSS strategie
+het whiteboard gezamenlijk een breakdown maken van de CSS
 Naarmate er meer CSS in je project komt, bijvoorbeeld als je gaat samenwerken aan een project, wordt het steeds belangrijker om een CSS strategie (met elkaar) te bepalen.
 
 **Opdracht**  
@@ -28,9 +27,8 @@ Wat valt op aan de naamgeving van classes en custom properties?
 - https://www.smashingmagazine.com/  
 - https://fdnd.nl/  
 
-### Ontwerpen/bouwen
 
-#### Custom Properties
+### Custom Properties
 Met Custom Properties kun je een css value opslaan en op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
 
 **Opdracht**  
@@ -52,7 +50,7 @@ Bronnen:
 - [prefers-color-scheme (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 - Advanced: [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj)
 
-#### CSS Nesting
+### CSS Nesting
 Met CSS Nesting plaats je child elements ín het parent element. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers. 
 
 **Opdracht**  
@@ -61,7 +59,8 @@ Maak met je team, aan de hand van de onderstaande bron, afspraken over hoe julli
 Bron:    
 - [Native CSS nesting: What you need to know](https://blog.logrocket.com/native-css-nesting/)
 
-#### CSS Cascade Layers
+<!-- 
+### CSS Cascade Layers
 Met CSS Cascade Layers kan je extra specificity levels aanmaken in CSS. Dat kan helpen om de stylesheets overzichtelijker te houden en voorkomt het gebruik van _!important_.
 
 **Opdracht**  
@@ -72,9 +71,9 @@ Bronnen:
 - [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
 - Advanced: [Cascade Layers are useless*](https://www.matuzo.at/blog/2023/cascade-layers-are-useless/)
 
-### Integreren
+-->
 
-#### Generieke Stylesheet implementeren
+### Generieke Stylesheet implementeren
 Nu je met je team een gemeenschappelijke, generieke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project (leertaak).
 
 **Opdracht**  
