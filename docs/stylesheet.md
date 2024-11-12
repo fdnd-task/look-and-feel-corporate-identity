@@ -2,21 +2,22 @@
 
 ## Stylesheet
 
-Je hebt in Figma een styleguide gemaakt, nu ga je een gestructureerd CSS file maken met als doel dat jullie één stylesheet kunnen gebruiken in je individuele project voor veelvoorkomende CSS selectoren en properties.
+Je hebt tijdens de sprint planningn in Figma een styleguide gemaakt en een gezamenlijke stylesheet met de huisstijl van de opdrachtgever. 
 
-## Opdrachten
+Vandaag ga je leren hoe je een gestructureerd CSS file kan maken met classes en custom properties. 
 
-- CSS strategie
-- Custom properties
-- CSS inladen
+## Aanpak
+
+Eerst ga je analyseren wat voor CSS strategie grote websites gebruiken. Daarna ga je met behulp van Custom properties jullie gezamenlijke stylehseet structuren. Tot slot ga je het gezamenlijke stylesheet inladen en leren hoe je de styles kan toepassen op je project. 
+
 
 ### CSS strategie
 Naarmate er meer CSS in je project komt, bijvoorbeeld als je gaat samenwerken aan een project, wordt het steeds belangrijker om een CSS strategie (met elkaar) te bepalen.
 
 **Opdracht**  
-Bekijk, voor onderstaande websites, in de inspector, hoe de css is gemaakt voor een `h2` en een `button` element.
+Onderzoek op 3 verschillende websites hoe CSS is toegepast voor een `H2` en `Button` element. 
 
-Beantwoord deze vragen voor onderstaande websites en schrijf op het whiteboard:  
+Beantwoord deze vragen op het whiteboard:  
 - Welke element selectoren en class selectoren zijn gebruikt?
 - Welke properties staan er in welke selectoren?
 - Wat valt op aan de naamgeving van classes en custom properties?
