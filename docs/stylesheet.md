@@ -68,7 +68,33 @@ Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and
 ## CSS inladen
 Nu je met je team een gemeenschappelijke, generieke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project (leertaak).
 
-### Opdracht
-Koppel de gemeenschappelijke stylesheet in de HTML van jouw project (gebruik hiervoor de live link naar de stylesheet op GitHub pages) 
-Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de gemeenschappelijke stylesheet staat, worden verwijderd.
+[Hier wat uitleg over Specificity]
+
+### Opdracht Specificity
+
+Open je code editor en maak een blanco HTML pagina in je editor, nospecificity.html en sla deze op in de repo van je leertaak. Maak ook een blanco CSS file. 
+
+Koppel de gemeenschappelijke stylesheet in de HTML van jouw project en koppel daaronder het blanco CSS file. 
+
+Maak een 'h2' en een 'button' element in het HTML file en ...
+
+
+
+
+
+<!-- Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de gemeenschappelijke stylesheet staat, worden verwijderd. -->
+
+
+Verschillende manieren om een HTML element te benaderen via CSS
+
+Element
+Class
+ID
+Inline css
+
+![](specificity-css-tricks.png)
+**
+
+https://css-tricks.com/specifics-on-css-specificity/
+
 
