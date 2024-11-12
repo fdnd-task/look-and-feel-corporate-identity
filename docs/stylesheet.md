@@ -143,9 +143,9 @@ _Specificity_ betekent dat een browser bepaalt welke styling het meest belangrij
 _Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ aan geneste-elementen.
 
 ### Cascade
-De Cascade betekent dat de volgorde bepaalt hoe styles worden toegepast als er meerdere stijlen van toepassing zijn op een element.
 "Cascade" betekent letterlijk "waterval". 
-Het idee is dat stijlen in een bepaalde volgorde "vallen", dat bepaalt welke stijl het laatste is en dus wordt uitgevoerd.
+HIermee wordt bedoeld dat als er meerdere stijlen van toepassing zijn op een element de volgorde bepaalt hoe styles worden toegepast.
+Het idee is dat stijlen in een bepaalde volgorde "vallen", en dat bepaalt welke stijl het laatste is en dus wordt uitgevoerd.
 
 ### Specificity
 Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd. 
@@ -159,86 +159,69 @@ En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voor
 
 ### Opdracht
 Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. 
-Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. 
+Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. 
+Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. 
 Dat ziet er dan zo uit in de HTML: 
-
 ```html
 <link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
 <link rel="stylesheet" href="specificity.css">
 ```
 
 #### Element selector
-
 Maak een `<h2>` element aan in het HTML file en geef het een bijhorende class uit de gezamenlijke stijlesheet. Maak nog een `<h2>` element aan zonder class. Nu staat er zoiets in het HTML file: 
-
 ```html
 <h2 class="heading-medium">Ik ben een heading, welke kleur krijg ik?</h2>
 <h2>Ik ben ook een heading, welke kleur krijg ik?</h2>
 ```
-
-Maak nu een element selector in het `specificity.css` met een andere kleur dan in de huisstijl staat. 
-
+Maak nu een element selector in `specificity.css` met een andere kleur dan in de huisstijl staat. 
 ```css
-h2{
+h2 {
     color: purple;
 }
 ```
-
-Welke kleur hebben de headings? 
+Welke heading is paars? 
+Of wordt de huisstijl uitgevoerd?  
 
 #### Class selector
-
 Voeg nog een `<h2>` element toe met een class uit de gezamenlijke stijlesheet en voeg een tweede class toe. 
-
 ```html
-<h2 class="heading-medium test">Ik ben een heading met twee classes</h2>
+<h2 class="heading-medium green">Ik ben een heading met twee classes</h2>
 ```
-
 Maak een class aan met dezelfde naam in `specificity.css` met een andere kleur.
-
 ```css
-.test{
+.green {
     color: green;
 }
 ```
-Welke kleur hebben de headings? 
-
+Welke kleur krijgt de heading met twee classes? 
+Krijgt het de kleur van de huisstijl, of wordt de andere class uitgevoerd?
 
 #### Class volgorde
-
-Voeg nu aan het `specificity.css` file een class toe met dezelfde naam als al in de gezamenlijke stylesheet staat, 
-maar met een andere kleur dan in de huisstijl staat. 
-Dat ziet er dan zo uit:
-
+Voeg nu aan `specificity.css` een class toe met dezelfde naam als al in de gezamenlijke stylesheet staat. 
+Geef de class een andere kleur. Dat ziet er dan zo uit:
 ```css
-.heading-medium{
+.heading-medium {
     color: pink;
 }
 ```
-Welke kleur hebben de headings? 
-
+Welke kleur hebben de headings nu? 
+Kan je bedenken waarom dat is? 
 
 #### ID selector
-
-Voeg nog een `<h2>` element toe, geef het de class uit de gezamenlijke stijlesheet en voeg een ID toe
-
+Voeg nog een `<h2>` element toe. 
+Geef het de class uit de gezamenlijke stijlesheet en voeg een ID toe
 ```html
 <h2 class="heading-medium test" id="heading">Ik ben een heading met een ID</h2>
 ```
-
 Maak een id selector in `specificity.css` met een andere kleur.
-
 ```css
-#heading{
+#heading {
     color: yellow;
 }
 ```
-Welke kleur hebben de headings? 
+Welke kleur krijgt de heading? 
+De kleur die met een id-selector is toegkend of 'wint' de class uit de gezamenlijke stylesheet?
 
-
-
-
-<!-- Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de gemeenschappelijke stylesheet staat, worden verwijderd. -->
 
 #### Bronnen
 Als je meer wil leren over het principe Specificity van CSS kun je hier meer lezen: 
