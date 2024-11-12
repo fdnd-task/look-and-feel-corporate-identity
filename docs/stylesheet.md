@@ -25,8 +25,10 @@ Wat valt op aan de naamgeving van classes en custom properties?
 
 - https://css-tricks.com/  
 - https://www.smashingmagazine.com/  
-- https://fdnd.nl/  
+- https://fdnd.nl/
 
+### Classes
+...
 
 ### Custom Properties
 Met Custom Properties kun je een css value opslaan en op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
@@ -50,6 +52,7 @@ Bronnen:
 - [prefers-color-scheme (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 - Advanced: [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj)
 
+<!--
 ### CSS Nesting
 Met CSS Nesting plaats je child elements ín het parent element. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers. 
 
@@ -58,6 +61,7 @@ Maak met je team, aan de hand van de onderstaande bron, afspraken over hoe julli
 
 Bron:    
 - [Native CSS nesting: What you need to know](https://blog.logrocket.com/native-css-nesting/)
+-->
 
 <!-- 
 ### CSS Cascade Layers
