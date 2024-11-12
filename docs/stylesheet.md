@@ -46,24 +46,47 @@ Sterker nog, je kunt de waardes dynamisch aanpassen, en op die manier slimme sty
 
 ```css
 .button {
-  --saturation: 20%;
-  color: hsl(50 var(--saturation) 40%);
+  --lightness: 30%;
+  background: hsl(200 100% var(--lightness));
 
   &:hover, &:focus {
-    --saturation: 30%;
-  }
-
-  &:active {
-    --saturation: 10%;
-  }
-
-  &.primary {
-    color: hsl(20 var(--saturation) 40%);
+    --lightness: 25%;
   }
 }
 ```
 
-Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ zijn die properties in de hele DOM daardoor bekend, maar custom properties zijn dus veel krachtiger dan alleen 'globale variabelen'."
+Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ zijn die properties in de hele DOM daardoor bekend, maar custom properties zijn dus veel krachtiger dan alleen 'globale variabelen'. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken:
+
+```css
+.button {
+  --hue: 200;
+  --lightness: 30%;
+  background: hsl(var(--hue) 100% var(--lightness));
+  color: #fff;
+
+  &:hover, &:focus {
+    --lightness: 25%;
+  }
+
+  &:active {
+    --lightness: 20%;
+  }
+}
+
+.button-ok {
+  --hue: 100;
+}
+
+.button-cancel {
+  --hue: 20;
+}
+```
+
+```html
+<button class="button">Knop</button>
+<button class="button button-ok">OK</button>
+<button class="button button-cancel">Annuleren</button>
+```
 
 ### Opdracht
 
