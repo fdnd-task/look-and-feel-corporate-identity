@@ -82,6 +82,8 @@ Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het
 }
 ```
 
+Waarmee je bijvoorbeeld dit soort HTML kunt schrijven:
+
 ```html
 <button class="button">Knop</button>
 <button class="button button-ok">OK</button>
