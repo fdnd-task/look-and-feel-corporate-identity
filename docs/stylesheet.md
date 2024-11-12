@@ -52,6 +52,10 @@ a {
   &:hover, &:focus {
     --saturation: 30%;
   }
+
+  &:active {
+    --saturation: 10%;
+  }
 }
 ```
 
