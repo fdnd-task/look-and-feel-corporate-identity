@@ -119,9 +119,8 @@ Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and
 
 ## CSS inladen
 Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. 
-Voeg deze toe aan in de `<head>` van je html document. 
-Als het goed is heb je nu twee CSS files gelinkt, de huisstijl en je eigen styling voor de layout en componenten die je gaat maken.
-Dat ziet er dan zo uit. 
+Voeg deze toe aan de `<head>` van je html document. 
+Dan heb je dus twee CSS files gelinkt, dat ziet er dan zo uit. 
 
 ```html
 <link rel="stylesheet" href="projectnaam.css">
@@ -133,13 +132,18 @@ Dat ziet er dan zo uit.
 Maar welke styling wordt nu uitgevoerd als je `classes` gebruikt uit de huisstijl en uit je eigen stylesheet?
 
 ```html
-    <h2 class="heading-red green">Welke style krijgt deze heading?<h2>
+    <h2 class="heading-red green">Welke kleur krijgt deze heading?<h2>
 ```
 
-Voor het uitvoeren van CSS gebruikt de browser de CSS principes _Cascade_, _Specificity_, en _Inheritance_. De _Cascade_ betekent dat de volgorde van de CSS bepalend is voor welke style wordt uitgevoerd. _Specificity_ betekent dat een browser bepaalt welke styling het meest belangrijk is. _Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ naar _child_ elementen. 
+Voor het uitvoeren van CSS gebruikt de browser de CSS principes _Cascade_, _Specificity_, en _Inheritance_.
+De _Cascade_ betekent dat de volgorde van de CSS bepalend is voor welke style wordt uitgevoerd.
+_Specificity_ betekent dat een browser bepaalt welke styling het meest belangrijk is.
+_Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ aan geneste-elementen.
 
 ### Cascade
-[Korte uitleg ver de Cascade en Cascade order.]
+De Cascade betekent dat de volgorde bepaalt hoe styles worden toegepast als er meerdere stijlen van toepassing zijn op een element.
+"Cascade" betekent letterlijk "waterval". 
+Het idee is dat stijlen in een bepaalde volgorde "vallen", dat bepaalt welke stijl het laatste is en dus wordt uitgevoerd.
 
 ### Specificity
 Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd. 
