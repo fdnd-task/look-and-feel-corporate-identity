@@ -117,17 +117,19 @@ Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-cs
 Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
 
 
-
 ## CSS inladen
-Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. Voeg deze toe aan in de `<head>` van je html document. Als het goed is heb je nu twee CSS files gelinkt, de huisstijl en je eigen styling voor de layout en componenten die je gaat maken.
+Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. 
+Voeg deze toe aan in de `<head>` van je html document. 
+Als het goed is heb je nu twee CSS files gelinkt, de huisstijl en je eigen styling voor de layout en componenten die je gaat maken.
+Dat ziet er dan zo uit. 
 
 ```html
 <link rel="stylesheet" href="projectnaam.css">
 <link rel="stylesheet" href="style.css">
 ```
 
-### Specificity
 
+### CSS principes
 Maar welke styling wordt nu uitgevoerd als je `classes` gebruikt uit de huisstijl en uit je eigen stylesheet?
 
 ```html
@@ -136,18 +138,29 @@ Maar welke styling wordt nu uitgevoerd als je `classes` gebruikt uit de huisstij
 
 Voor het uitvoeren van CSS gebruikt de browser de CSS principes _Cascade_, _Specificity_, en _Inheritance_. De _Cascade_ betekent dat de volgorde van de CSS bepalend is voor welke style wordt uitgevoerd. _Specificity_ betekent dat een browser bepaalt welke styling het meest belangrijk is. _Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ naar _child_ elementen. 
 
-Vandaag ga je oefenen met _Specificity_. Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd. Een element selector krijgt een _weight_ van `0 0 0 1`, een class selector krijgt `0 0 1 0`. Een ID selector krijgt `0 1 0 0`. En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voorang op de id, class en element selectors. 
+### Cascade
+[Over de Cascade en Cascade order.]
+
+### Specificity
+Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd. 
+Een element selector is het minst specifiek en krijgt een _weight_ van `0 0 0 1`. 
+Een class selector krijgt `0 0 1 0`. 
+Een ID selector krijgt `0 1 0 0`. 
+En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voorang op de id-, class- en element-selectors. 
 
 ![](specificity-css-tricks.png)
 *Browsers berekenen welke styling belangrijk is. Hoe specifieker de styling hoe hoger de specificity.*
 
-### Opdracht Specificity
-Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. Dat ziet er dan zo uit in de HTML. 
+### Opdracht
+Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. 
+Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. 
+Dat ziet er dan zo uit in de HTML: 
 
 ```html
 <link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
 <link rel="stylesheet" href="specificity.css">
 ```
+
 
 
 #### Element selector
@@ -169,6 +182,12 @@ h2{
 
 Welke kleur hebben de headings? 
 
+#### Opdrachtje met de cascade en volgorde?
+Zelfde class namen in het custom stylesheet met een andere kleur? 
+Wat gebeurt er dan? 
+
+
+
 #### Class selector
 
 Voeg nog een `<h2>` element toe met een class uit de gezamenlijke stijlesheet en voeg een tweede class toe. 
@@ -185,6 +204,8 @@ Maak een class aan met dezelfde naam in `specificity.css` met een andere kleur.
 }
 ```
 Welke kleur hebben de headings? 
+
+
 
 
 #### ID selector
