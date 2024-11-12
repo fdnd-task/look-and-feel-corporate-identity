@@ -158,6 +158,10 @@ En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voor
 *Browsers berekenen welke styling belangrijk is. Hoe specifieker de styling hoe hoger de specificity.*
 
 ### Opdracht
+Voor deze opdracht ga je spelen met de CSS principes _cascade_ en _specificity_ om te leren hoe dat werkt. 
+Je gaat 4 experimenten doen. 
+Beantwoord de bijhorende vragen in je Learning log en probeer uit te leggen wat er gebeurt. 
+
 Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. 
 Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. 
 Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. 
@@ -179,8 +183,9 @@ h2 {
     color: purple;
 }
 ```
-Welke heading is paars? 
-Of wordt de huisstijl uitgevoerd?  
+Wordt heading is paars? 
+Of wordt de huisstijl uitgevoerd? 
+Kan je bedenken waarom dit gebeurt?
 
 #### Class selector
 Voeg nog een `<h2>` element toe met een class uit de gezamenlijke stijlesheet en voeg een tweede class toe. 
@@ -195,6 +200,7 @@ Maak een class aan met dezelfde naam in `specificity.css` met een andere kleur.
 ```
 Welke kleur krijgt de heading met twee classes? 
 Krijgt het de kleur van de huisstijl, of wordt de andere class uitgevoerd?
+Waarom krijgt de heading die kleur?
 
 #### Class volgorde
 Voeg nu aan `specificity.css` een class toe met dezelfde naam als al in de gezamenlijke stylesheet staat. 
@@ -205,7 +211,7 @@ Geef de class een andere kleur. Dat ziet er dan zo uit:
 }
 ```
 Welke kleur hebben de headings nu? 
-Kan je bedenken waarom dat is? 
+Probeer te beschrijving waarom de heading die kleur heeft? 
 
 #### ID selector
 Voeg nog een `<h2>` element toe. 
@@ -220,8 +226,8 @@ Maak een id selector in `specificity.css` met een andere kleur.
 }
 ```
 Welke kleur krijgt de heading? 
-De kleur die met een id-selector is toegkend of 'wint' de class uit de gezamenlijke stylesheet?
-
+De kleur van de id-selector of 'wint' de class uit de gezamenlijke stylesheet?
+Waarom is dat?
 
 #### Bronnen
 Als je meer wil leren over het principe Specificity van CSS kun je hier meer lezen: 
