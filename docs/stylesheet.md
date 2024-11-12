@@ -119,35 +119,98 @@ Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and
 
 
 ## CSS inladen
-Nu je met je team een gemeenschappelijke, generieke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project (leertaak).
+Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. Voeg deze toe aan in de `<head>` van je html document. Als het goed is heb je nu twee CSS files gelinkt, de huisstijl en je eigen styling voor de layout en componenten die je gaat maken.
 
-[Hier wat uitleg over Specificity]
+```html
+<link rel="stylesheet" href="projectnaam.css">
+<link rel="stylesheet" href="style.css">
+```
+
+### Specificity
+
+Maar welke styling wordt nu uitgevoerd als je `classes` gebruikt uit de huisstijl en uit je eigen stylesheet?
+
+```html
+    <h2 class="heading-red green">Welke style krijgt deze heading?<h2>
+```
+
+Voor het uitvoeren van CSS gebruikt de browser de CSS principes _Cascade_, _Specificity_, en _Inheritance_. De _Cascade_ betekent dat de volgorde van de CSS bepalend is voor welke style wordt uitgevoerd. _Specificity_ betekent dat een browser bepaalt welke styling het meest belangrijk is. _Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ naar _child_ elementen. 
+
+Vandaag ga je oefenen met _Specificity_. Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd. Een element selector krijgt een _weight_ van `0 0 0 1`, een class selector krijgt `0 0 1 0`. Een ID selector krijgt `0 1 0 0`. En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voorang op de id, class en element selectors. 
+
+![](specificity-css-tricks.png)
+*Browsers berekenen welke styling belangrijk is. Hoe specifieker de styling hoe hoger de specificity.*
 
 ### Opdracht Specificity
+Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. Dat ziet er dan zo uit in de HTML. 
 
-Open je code editor en maak een blanco HTML pagina in je editor, nospecificity.html en sla deze op in de repo van je leertaak. Maak ook een blanco CSS file. 
+```html
+<link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
+<link rel="stylesheet" href="specificity.css">
+```
 
-Koppel de gemeenschappelijke stylesheet in de HTML van jouw project en koppel daaronder het blanco CSS file. 
 
-Maak een 'h2' en een 'button' element in het HTML file en ...
+#### Element selector
 
+Maak een `<h2>` element aan in het HTML file en geef het een bijhorende class uit de gezamenlijke stijlesheet. Maak nog een `<h2>` element aan zonder class. Nu staat er zoiets in het HTML file: 
+
+```html
+<h2 class="heading-medium">Ik ben een heading, welke kleur krijg ik?</h2>
+<h2>Ik ben ook een heading, welke kleur krijg ik?</h2>
+```
+
+Maak nu een element selector in het `specificity.css` met een andere kleur dan in de huisstijl staat. 
+
+```css
+h2{
+    color: purple;
+}
+```
+
+Welke kleur hebben de headings? 
+
+#### Class selector
+
+Voeg nog een `<h2>` element toe met een class uit de gezamenlijke stijlesheet en voeg een tweede class toe. 
+
+```html
+<h2 class="heading-medium test">Ik ben een heading met twee classes</h2>
+```
+
+Maak een class aan met dezelfde naam in `specificity.css` met een andere kleur.
+
+```css
+.test{
+    color: green;
+}
+```
+Welke kleur hebben de headings? 
+
+
+#### ID selector
+
+Voeg nog een `<h2>` element toe, geef het de class uit de gezamenlijke stijlesheet en voeg een ID toe
+
+```html
+<h2 class="heading-medium test" id="heading">Ik ben een heading met een ID</h2>
+```
+
+Maak een id selector in `specificity.css` met een andere kleur.
+
+```css
+#heading{
+    color: yellow;
+}
+```
+Welke kleur hebben de headings? 
 
 
 
 
 <!-- Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de gemeenschappelijke stylesheet staat, worden verwijderd. -->
 
+#### Bronnen
+Als je meer wil leren over het principe Specificity van CSS kun je hier meer lezen: 
 
-Verschillende manieren om een HTML element te benaderen via CSS
-
-Element
-Class
-ID
-Inline css
-
-![](specificity-css-tricks.png)
-**
-
-https://css-tricks.com/specifics-on-css-specificity/
-
-
+- [Cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+- [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
