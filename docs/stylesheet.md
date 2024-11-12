@@ -54,6 +54,8 @@ a {
 }
 ```
 
+Veel tutorials gebruiken de `:root` selector om custom properties op te zetten, maar Custom Properties zijn letterlijk dat, _custom properties_. Veel krachtiger dan 'globale variabelen'."
+
 ### Opdracht
 
 Jullie hebben een gezamenlijke stylesheet gemaakt met de styling voor de kleuren, typografie en formulier elementen. 
