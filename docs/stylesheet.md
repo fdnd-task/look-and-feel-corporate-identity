@@ -31,16 +31,28 @@ Websites:
 
 
 ## Custom Properties
-Met Custom Properties kun je een css value opslaan en op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
+Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` in bewaren, en die op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
 
 ```css
 .card {
   --spacing: 1.2rem;
   padding: var(--spacing);
   margin: var(--spacing);
+}
 ```
-*Met CSS custom properties kun je een waarde op meerdere plekken gebruiken.*
 
+Sterker nog, je kunt de waardes aanpassen, en op die manier slimme styling schrijven:
+
+```css
+a {
+  --saturation: 20%;
+  color: hsl(50 var(--saturation) 40%);
+
+  &:hover, &:focus {
+    --saturation: 30%;
+  }
+}
+```
 
 ### Opdracht
 
