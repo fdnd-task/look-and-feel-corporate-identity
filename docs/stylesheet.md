@@ -42,7 +42,7 @@ Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` 
 }
 ```
 
-Sterker nog, je kunt de waardes aanpassen, en op die manier slimme styling schrijven:
+Sterker nog, je kunt de waardes dynamisch aanpassen, en op die manier slimme styling schrijven, zoals:
 
 ```css
 a {
