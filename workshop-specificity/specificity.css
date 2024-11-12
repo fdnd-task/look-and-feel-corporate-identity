@@ -1,0 +1,20 @@
+/* Specificity */
+
+h2{
+    color: red;
+}
+h2{
+    color: purple;
+}
+
+.test{
+    color: green;
+}
+
+.font-card-title {
+    color: burlywood
+}
+
+#heading{
+    color: yellow
+}
