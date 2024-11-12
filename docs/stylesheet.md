@@ -55,7 +55,7 @@ Sterker nog, je kunt de waardes dynamisch aanpassen, en op die manier slimme sty
 }
 ```
 
-Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ zijn die properties in de hele DOM daardoor bekend, maar custom properties zijn dus veel krachtiger dan alleen 'globale variabelen'. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken:
+Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ in CSS zijn die properties in de hele onderliggende DOM bekend, maar custom properties zijn dus veel krachtiger dan alleen 'globale variabelen'. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken:
 
 ```css
 .button {
