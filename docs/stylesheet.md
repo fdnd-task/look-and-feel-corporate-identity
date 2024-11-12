@@ -30,7 +30,7 @@ Websites:
 Met Custom Properties kun je een css value opslaan en op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
 
 **Opdracht**  
-Gebruik voor values die in de generieke stylesheet vaker voorkomen _Custom Properties_.
+Gebruik voor values die in de gemeenschappelijke stylesheet vaker voorkomen _Custom Properties_.
 
 Tip: Zet een Custom Property nooit op de _:root_ selector, maar zo diep mogelijk in de _DOM Tree_!
 
@@ -49,6 +49,6 @@ Bron:
 Nu je met je team een gemeenschappelijke, generieke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project (leertaak).
 
 **Opdracht**  
-Koppel de gemeenschappelijke, generieke stylesheet in de HTML van jouw project (gebruik hiervoor de live link naar de stylesheet op GitHub pages) 
-Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de generieke stylesheet staat, worden verwijderd.
+Koppel de gemeenschappelijke stylesheet in de HTML van jouw project (gebruik hiervoor de live link naar de stylesheet op GitHub pages) 
+Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de gemeenschappelijke stylesheet staat, worden verwijderd.
 
