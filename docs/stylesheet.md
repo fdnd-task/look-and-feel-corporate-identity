@@ -6,18 +6,20 @@ Je hebt tijdens de sprint planningn in Figma een styleguide gemaakt en een gezam
 
 Vandaag ga je leren hoe je een gestructureerd CSS file kan maken met classes en custom properties. 
 
-## Aanpak
+### Aanpak
+Eerst ga je analyseren wat voor CSS strategie grote websites gebruiken. Daarna ga je met behulp van Custom properties jullie gezamenlijke stylesheet structuren. Tot slot ga je het gezamenlijke stylesheet inladen en leren hoe je de styles kan toepassen op je project. 
 
-Eerst ga je analyseren wat voor CSS strategie grote websites gebruiken. Daarna ga je met behulp van Custom properties jullie gezamenlijke stylehseet structuren. Tot slot ga je het gezamenlijke stylesheet inladen en leren hoe je de styles kan toepassen op je project. 
 
-
-### CSS strategie
+## CSS strategie
 Naarmate er meer CSS in je project komt, bijvoorbeeld als je gaat samenwerken aan een project, wordt het steeds belangrijker om een CSS strategie (met elkaar) te bepalen.
 
-**Opdracht**  
+### Opdracht
 Onderzoek op 3 verschillende websites hoe CSS is toegepast voor een `H2` en `Button` element. 
 
-Beantwoord deze vragen op het whiteboard:  
+![](CSS-strategie.png)
+*Met behulp van de Devtools kun je onderzoeken wat de CSS strategie van websites is.*
+
+Beantwoord deze vragen op het whiteboard:
 - Welke element selectoren en class selectoren zijn gebruikt?
 - Welke properties staan er in welke selectoren?
 - Wat valt op aan de naamgeving van classes en custom properties?
@@ -27,29 +29,42 @@ Websites:
 - https://www.smashingmagazine.com/  
 - https://fdnd.nl/
 
-### Custom Properties
+
+## Custom Properties
 Met Custom Properties kun je een css value opslaan en op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
 
-**Opdracht**  
-Gebruik voor values die in de gemeenschappelijke stylesheet vaker voorkomen _Custom Properties_.
+### Opdracht
 
-Tip: Zet een Custom Property nooit op de _:root_ selector, maar zo diep mogelijk in de _DOM Tree_!
+Jullie hebben een gezamenlijke stylesheet gemaakt met de styling voor de kleuren, typografie en formulier elementen. 
 
-Bronnen:
-- [A strategy Guide To CSS Custom Properties](https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/)
-- [Breaking CSS Custom Properties out of :root Might Be a Good Idea](https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/)
+Bekijk welke elementen uit de styleguide geschreven kunnen worden met custom properties. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen. Als waardes vaker voorkomen, kun je custom properties gebruiken.
 
-**Opdracht (advanced)**  
-Een Light en Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden. 
-Implementeer een Dark Theme, die in ieder geval werkt op basis van de voorkeuren van de gebruiker. Custom Properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
+Bespreek met een mentor jullie custom properties, classnames en code conventies die jullie hebben toegepast. 
+Teken zo nodig aanpassingen over bijvoorbeeld classnames en code conventies op het whiteboard.
 
-Bron:  
-- [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj)
+### Bronnen
 
-### CSS inladen
+- [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [CSS Custom Properties Guide](https://css-tricks.com/a-complete-guide-to-custom-properties/)
+
+<!-- - [Breaking CSS Custom Properties out of :root Might Be a Good Idea](https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/) -->
+
+
+### Opdracht (advanced)
+Een Light en Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
+
+Implementeer een Dark Theme die in ieder werkt op basis van de voorkeuren van de gebruiker. Custom Properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
+
+Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/). 
+
+Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
+
+
+
+## CSS inladen
 Nu je met je team een gemeenschappelijke, generieke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project (leertaak).
 
-**Opdracht**  
+### Opdracht
 Koppel de gemeenschappelijke stylesheet in de HTML van jouw project (gebruik hiervoor de live link naar de stylesheet op GitHub pages) 
 Refactor jouw reeds bestaande lokale stylesheets. Hieruit kan alle overbodige CSS, die nu in de gemeenschappelijke stylesheet staat, worden verwijderd.
 
