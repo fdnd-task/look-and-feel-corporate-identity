@@ -54,7 +54,7 @@ a {
 }
 ```
 
-Veel tutorials gebruiken de `:root` selector om custom properties op te zetten, maar Custom Properties zijn letterlijk dat, _custom properties_. Veel krachtiger dan 'globale variabelen'."
+Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ zijn die properties in de hele DOM daardoor bekend, maar custom properties zijn dus veel krachtiger dan alleen 'globale variabelen'."
 
 ### Opdracht
 
