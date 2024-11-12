@@ -2,7 +2,7 @@
 
 ## Sprint Planning
 
-Je begint een project altijd met een Sprint Planning, dan weet je wat je de komende weken gaat doen en wat er van je wordt verwacht.
+Je begint een project altijd met een Sprint planning, dan weet je wat je de komende weken gaat doen en wat er van je wordt verwacht.
 
 ### Aanpak
 
