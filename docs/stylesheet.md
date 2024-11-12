@@ -45,7 +45,7 @@ Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` 
 Sterker nog, je kunt de waardes dynamisch aanpassen, en op die manier slimme styling schrijven, zoals:
 
 ```css
-a {
+.button {
   --saturation: 20%;
   color: hsl(50 var(--saturation) 40%);
 
@@ -55,6 +55,10 @@ a {
 
   &:active {
     --saturation: 10%;
+  }
+
+  &.primary {
+    color: hsl(20 var(--saturation) 40%);
   }
 }
 ```
