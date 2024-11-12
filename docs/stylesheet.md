@@ -108,9 +108,11 @@ Schets het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig 
 
 
 ### Opdracht Light & Dark mode (advanced)
-Als je al ervaring hebt met custom properties kun je proberen een Light & Dark mode te maken. Een Light & Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
+Als je al ervaring hebt met custom properties kun je proberen een Light & Dark mode te maken. 
+Een Light & Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
 
-Implementeer een Dark Theme op basis van custom properties die werkt op basis van de voorkeuren van de gebruiker. Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
+Implementeer een Dark Theme meg custom properties die werkt op basis van de voorkeuren van de gebruiker. 
+Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
 
 Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/). 
 
@@ -123,7 +125,7 @@ Voeg deze toe aan de `<head>` van je html document.
 Dan heb je dus twee CSS files gelinkt, dat ziet er dan zo uit. 
 
 ```html
-<link rel="stylesheet" href="projectnaam.css">
+<link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
 <link rel="stylesheet" href="style.css">
 ```
 
@@ -132,7 +134,7 @@ Dan heb je dus twee CSS files gelinkt, dat ziet er dan zo uit.
 Maar welke styling wordt nu uitgevoerd als je `classes` gebruikt uit de huisstijl en uit je eigen stylesheet?
 
 ```html
-    <h2 class="heading-red green">Welke kleur krijgt deze heading?<h2>
+<h2 class="heading-red green">Welke kleur krijgt deze heading?<h2>
 ```
 
 Voor het uitvoeren van CSS gebruikt de browser de CSS principes _Cascade_, _Specificity_, en _Inheritance_.
