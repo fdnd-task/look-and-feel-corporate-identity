@@ -14,7 +14,7 @@ Je hebt in Figma een styleguide gemaakt, nu ga je een gestructureerd CSS file ma
 Naarmate er meer CSS in je project komt, bijvoorbeeld als je gaat samenwerken aan een project, wordt het steeds belangrijker om een CSS strategie (met elkaar) te bepalen.
 
 **Opdracht**  
-Bekijk, voor onderstaande websites, in de inspector, hoe de css is gemaakt voor; kleur, typografie, formulier elementen.
+Bekijk, voor onderstaande websites, in de inspector, hoe de css is gemaakt voor een `h2` element en een `button` element.
 
 Beantwoord deze vragen voor onderstaande websites en schrijf op het whiteboard:  
 - Welke element selectoren en class selectoren zijn gebruikt?
