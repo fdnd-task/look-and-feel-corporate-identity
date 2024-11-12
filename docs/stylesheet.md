@@ -148,7 +148,7 @@ Een class selector krijgt `0 0 1 0`.
 Een ID selector krijgt `0 1 0 0`. 
 En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voorang op de id-, class- en element-selectors. 
 
-![](specificity-css-tricks.png)
+![](specificity-css-tricks.png)  
 *Browsers berekenen welke styling belangrijk is. Hoe specifieker de styling hoe hoger de specificity.*
 
 ### Opdracht
