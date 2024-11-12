@@ -159,15 +159,15 @@ En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voor
 
 Hoe kan je de specificity uitrekenen? Stel je hebt deze HTML:
 ```html
-<ul id="summer-drinks">
-   <li class="favorite">Whiskey and Ginger Ale</li>
-   <li>Wheat Beer</li>
-   <li>Mint Julip</li>
+<ul id="web-technologies">
+   <li>HTML</li>
+   <li class="favorite">CSS</li>
+   <li>JS</li>
 </ul>
 ```
 De `<li>` items zijn zwart door deze gecombineerde element en id selector:
 ```css
-ul#summer-drinks li {
+ul#web-technologies li {
    font-weight: normal;
    font-size: 12px;
    color: black;
@@ -181,7 +181,7 @@ Wordt de kleur nu rood?
   font-weight: bold;
 }
 ```
-De `<li>` blijft zwart want de selector `ul#summer-drinks li` is specifieker dan de class selector `.favorite`. 
+De `<li>` blijft zwart want de selector `ul#web-technologies li` is specifieker dan de class selector `.favorite`. 
 De weight van de class selector is `0 0 1 0`, de weight van de gecombineerde selector is `0 1 0 2`. 10 < 102 ...
 
 
