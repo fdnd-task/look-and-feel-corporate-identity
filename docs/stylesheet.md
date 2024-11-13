@@ -144,7 +144,7 @@ _Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ aan 
 
 ### Cascade
 "Cascade" betekent letterlijk "waterval". 
-HIermee wordt bedoeld dat als er meerdere stijlen van toepassing zijn op een element de volgorde bepaalt hoe styles worden toegepast.
+Hiermee wordt bedoeld dat als er meerdere stijlen van toepassing zijn op een element de volgorde bepaalt hoe styles worden toegepast.
 Het idee is dat stijlen in een bepaalde volgorde "vallen", en dat bepaalt welke stijl het laatste is en dus wordt uitgevoerd.
 
 ### Specificity
@@ -211,7 +211,7 @@ h2 {
     color: purple;
 }
 ```
-Wordt heading is paars? 
+Wordt de heading nu paars? 
 Of wordt de huisstijl uitgevoerd? 
 Kan je bedenken waarom dit gebeurt?
 
@@ -227,7 +227,7 @@ Maak een class aan met dezelfde naam in `specificity.css` met een andere kleur.
 }
 ```
 Welke kleur krijgt de heading met twee classes? 
-Krijgt het de kleur van de huisstijl, of wordt de andere class uitgevoerd?
+Krijgt het de kleur van de huisstijl of wordt de andere class uitgevoerd?
 Waarom krijgt de heading die kleur?
 
 #### Class volgorde
