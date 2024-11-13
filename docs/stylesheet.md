@@ -182,17 +182,17 @@ Wordt de kleur nu rood?
 }
 ```
 De `<li>` blijft zwart want de selector `ul#web-technologies li` is specifieker dan de class selector `.favorite`. 
-De weight van de class selector is `0 0 1 0`, de weight van de gecombineerde selector is `0 1 0 2`. 10 < 102 ...
+De _weight_ van de class selector is `0 0 1 0`, de _weight_ van de gecombineerde selector is `0 1 0 2`. 10 < 102 ...
 
 
 ### Opdracht
-Voor deze opdracht ga je spelen met de CSS principes _cascade_ en _specificity_ om te leren hoe dat werkt. 
+Voor deze opdracht ga je spelen met de CSS principes _Cascade_ en _Specificity_ om te leren hoe dat werkt. 
 Je gaat 4 experimenten doen. 
 Beantwoord de bijhorende vragen in je Learning log en probeer uit te leggen wat er gebeurt. 
 
 Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. 
-Maak een leeg CSS file, noem het `specificity.css` en sla het op in dezelfde map als het HTML file. 
-Voeg de gemeenschappelijke stylesheet toe aan het HTML file em daaronder het lege CSS file. 
+Maak een leeg CSS file, noem het `specificity.css`, sla het op in dezelfde map als het HTML file. 
+Voeg de gemeenschappelijke stylesheet toe in de `<head>` van het HTML file en daaronder het lege CSS file. 
 Dat ziet er dan zo uit in de HTML: 
 ```html
 <link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
@@ -220,7 +220,7 @@ Voeg nog een `<h2>` element toe met een class uit de gezamenlijke stijlesheet en
 ```html
 <h2 class="heading-medium green">Ik ben een heading met twee classes</h2>
 ```
-Maak een class aan met dezelfde naam in `specificity.css` met een andere kleur.
+Maak de class aan in `specificity.css` en geeft het een andere kleur.
 ```css
 .green {
     color: green;
@@ -242,8 +242,7 @@ Welke kleur hebben de headings nu?
 Probeer te beschrijving waarom de heading die kleur heeft? 
 
 #### ID selector
-Voeg nog een `<h2>` element toe. 
-Geef het de class uit de gezamenlijke stijlesheet en voeg een ID toe
+Voeg nog een `<h2>` element toe met de class uit de gezamenlijke stijlesheet en voeg een ID toe
 ```html
 <h2 class="heading-medium test" id="heading">Ik ben een heading met een ID</h2>
 ```
