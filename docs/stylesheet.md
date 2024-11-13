@@ -143,15 +143,15 @@ _Specificity_ betekent dat een browser bepaalt welke styling het meest belangrij
 _Inheritance_ betekent dat (sommige) styles worden doorgegeven van _parent_ aan geneste-elementen.
 
 ### Cascade
-"Cascade" betekent letterlijk "waterval". 
-Hiermee wordt bedoeld dat als er meerdere stijlen van toepassing zijn op een element de volgorde bepaalt hoe styles worden toegepast.
+"Cascade" betekent letterlijk "waterval".  
+Hiermee wordt bedoeld dat, als er meerdere stijlen van toepassing zijn op een element, de volgorde bepaalt hoe styles worden toegepast.
 Het idee is dat stijlen in een bepaalde volgorde "vallen", en dat bepaalt welke stijl het laatste is en dus wordt uitgevoerd.
 
 ### Specificity
-Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd. 
-Een element selector is het minst specifiek en krijgt een _weight_ van `0 0 0 1`. 
-Een class selector krijgt `0 0 1 0`. 
-Een ID selector krijgt `0 1 0 0`. 
+Browsers berekenen welke style het belangrijkst is en wordt uitgevoerd.   
+Een element selector is het minst specifiek en krijgt een _weight_ van `0 0 0 1`.   
+Een class selector krijgt `0 0 1 0`.   
+Een ID selector krijgt `0 1 0 0`.   
 En een inline-style krijgt een _weight_ van `1 0 0 0`, die style krijgt dus voorang op de id-, class- en element-selectors. 
 
 ![](specificity-css-tricks.png)  
