@@ -41,7 +41,10 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
    - **Herhaling van code**: Bekijk of er onnodige herhaling van code is. Als er vaak dezelfde stijlen worden herhaald, kijk dan of dit simpeler kan door variabelen of mixins te gebruiken.
 
 
+---
+
 #### Issues toewijzen
+Klaar met de twee code reviews? Ga dan samen aan de slag met de issues die jullie hebben ontvangen.
 1. Bekijk samen met jullie mentor de issues die jullie zelf hebben ontvangen. Vraag waar nodig toelichting.
 2. Overleg met elkaar wie welke issue gaat oppakken. Assign vervolgens een issue aan het teamlid die deze taak gaat oppakken.
 3. Klaar? Je kunt nu individueel de issues die jou zijn toegewezen gaan oplossen. Sluit de issues wanneer opgelost met een duidelijke toelichting wat je hebt gedaan en de bijbehorende commit.  
