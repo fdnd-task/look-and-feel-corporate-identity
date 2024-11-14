@@ -26,7 +26,7 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
 2. Pak samen met jullie mentor de repo erbij van de groep die je gaat reviewen. Lees met elkaar de README. 
    - **Feedback op README**: Controleer of de README voldoende informatie bevat om te begrijpen hoe de stylesheet werkt. Is het duidelijk hoe je de code kunt implementeren? Zou je zelfstandig hiermee kunnen werken? Schrijf je feedback in het “Feedback op README” issue.
 
-3. **Code Review Checklist**: Doorloop de volgende vragen om de kwaliteit van de stylesheet te beoordelen.
+3. **Code Review Checklist**: Doorloop de volgende vragen om de kwaliteit van de stylesheet te beoordelen. Schiet waar nodig een issue in.
 
    - **Indeling van de stylesheet**: Is de structuur van de stylesheet logisch? Zijn secties goed ingedeeld (bijv. kleuren, typografie, knoppen) zodat ze eenvoudig terug te vinden zijn?
    
