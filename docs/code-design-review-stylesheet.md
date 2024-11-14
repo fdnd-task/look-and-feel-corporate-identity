@@ -32,7 +32,7 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
    
    - **Consistente naamgeving**: Is de naamgeving consisitent? Kijk of er een consistente schrijfwijze is gekozen (zoals kebab-case voor CSS-variabelen of selectors, bijvoorbeeld `--font-size-large`).
    
-   - **Naamgeving en begrijpelijkheid**: Is de naamgeving van variabelen en classes gemakkelijk te volgen? Hier iets benoemen over het gebruik van --primary-color i.p.v. --red??
+   - **Naamgeving en begrijpelijkheid**: Is de naamgeving van variabelen en classes gemakkelijk te volgen? 
 
    - **Volledigheid van de stylesheet**: Bevat de stylesheet voldoende elementen en states voor een volledige implementatie? Let op states zoals hover, active en focus voor links en knoppen, en controleer of formulieren (inputvelden, foutmeldingen) ook zijn opgenomen.
 
