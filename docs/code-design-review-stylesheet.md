@@ -5,7 +5,7 @@
 Deze week heb je geleerd hoe je een styleguide maakt voor een opdrachtgever. Een huisstijl is de visuele identiteit van een organisatie. Hieronder vallen naam, beeldmerk, kleuren, typografie, vormentaal (stramienen/vlakken/curves/opmaak) en fotografiestijl. Jullie hebben de huisstijl van de opdrachtgever geanalyseerd, een interface inventory gemaakt en een styleguide samengesteld. Vervolgens hebben jullie dit omgezet in een gedeelde stylesheet. 
 
 ### Aanpak
-Vandaag ga je aan de slag met een code-review op de repo 'Look and Feel - Styleguide' van 2 andere groepen. Vervolgens ga je met jouw groepje de ontvangen issues toewijzen (assignen) aan teamleden. 
+Vandaag ga je aan de slag met een code-review op de repo 'Look and Feel - Styleguide' van 2 andere groepen. Vervolgens ga je met jouw groepje de ontvangen issues toewijzen (assignen) aan teamleden. Post de link van jullie Look and Feel Styleguide in de Teams channel 'Sprint 4' samen met jullie projectnaam. 
 
 #### Code-review Look and Feel - Styelguide
 1. Bekijk in het schema hieronder welke twee groepen jullie gaan reviewen. 
