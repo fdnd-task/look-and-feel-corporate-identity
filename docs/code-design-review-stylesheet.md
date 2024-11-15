@@ -12,14 +12,14 @@ Vandaag ga je aan de slag met een code-review op de repo 'Look and Feel - Styleg
 
 | Groep                         | Reviewt groepen                        | Ontvangt reviews van groepen                  |
 |-------------------------------|----------------------------------------|-----------------------------------------------|
-| **Drop & Heal**               | Tumi Mundo, Mediahuis                 | Oncology Collaboration Platform, Bieb in Bloei |
-| **Tumi Mundo**                | Oncology Collaboration Platform, Bieb in Bloei | Drop & Heal, Red Pers Website      |
-| **Oncology Collaboration Platform** | Red Pers Website, Online Collection Qatar Museums | Tumi Mundo, Drop & Heal             |
-| **Red Pers Website**          | Mediahuis, DDA Vacature Site          | Oncology Collaboration Platform, Tumi Mundo   |
-| **Mediahuis**                 | Drop & Heal, Bieb in Bloei            | Red Pers Website, Online Collection Qatar Museums |
-| **Bieb in Bloei**             | DDA Vacature Site, Tumi Mundo         | Mediahuis, Drop & Heal                       |
-| **Online Collection Qatar Museums** | Drop & Heal, DDA Vacature Site     | Mediahuis, Oncology Collaboration Platform    |
-| **DDA Vacature Site**         | Bieb in Bloei, Red Pers Website       | Online Collection Qatar Museums, Red Pers Website |
+| **Drop & Heal**               | Tumi Mundo, Mediahuis                 | Mediahuis, Online Collection Qatar Museums  |
+| **Tumi Mundo**                | Oncology Collaboration Platform, Bieb in Bloei | Drop&Heal, Bieb in Bloei      |
+| **Oncology Collaboration Platform** | Red Pers Website, Online Collection Qatar Museums | Tumi Mundo            |
+| **Red Pers Website**          | Mediahuis, DDA Vacature Site          | Online Collection Qatar Museums, Mediahuis, DDA   |
+| **Mediahuis**                 | Drop & Heal, Bieb in Bloei            | Drop&Heal, Red Pers |
+| **Bieb in Bloei**             | DDA Vacature Site, Tumi Mundo         | Tumi Mundo, Mediahuis, DDA       |
+| **Online Collection Qatar Museums** | Drop & Heal, DDA Vacature Site     | Oncology Collaboration Platform    |
+| **DDA Vacature Site**         | Bieb in Bloei, Red Pers Website       | Online Collection Qatar Museums, Red Pers Website, Bieb in Bloei |
 
 _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit met de gehele groep. Bepaal met elkaar wie de issues schrijft._
 
