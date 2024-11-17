@@ -76,9 +76,10 @@ body{
 }
 ```
 Hier probeert de browser eerst een extern font te gebruiken. Als dat font niet lukt mag de browser een systeem-font gebruiken. 
-Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *Fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
+Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
 
-Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. Zorg ervoor dat je bij de font-family altijd een generiek font naam meegeeft zodat de browser als fallback zelf een passend font gebruikt. 
+Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. 
+Zorg ervoor dat je bij de font-family altijd een generieke font-family naam meegeeft zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt, dit is meestal de *Times* ... 
 
 'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. 
 Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zijn ze beter leesbaar. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans'serif' of schreefloze-letters hebben geen schreef. 
