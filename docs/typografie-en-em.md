@@ -50,7 +50,7 @@ CSS heeft veel meer mogelijkheden om teksten goed leesbaar te maken zoals de `li
 
 ### Opdracht 
 
-Onderzoek op CSS-Tricks en Github welke CSS *properties* en *values* deze websites gebruiken voor goed leesbare teksten.
+Onderzoek de [artikelpagina van de Correspondent](https://decorrespondent.nl/15628/alarm-slaan-of-beter-bewijs-zoeken-de-wetenschappelijke-strijd-achter-kantelpunten-in-het-klimaat/babb3b1e-e017-0dcf-24e7-044ff58251d1) en een [artikel van Pixel Ambacht](https://pixelambacht.nl/2021/optical-size-hidden-superpower/) de *properties* en *values* die de websites gebruiken voor goed leesbare teksten.
 
 Schrijf op het whiteboard de
 - font-family
