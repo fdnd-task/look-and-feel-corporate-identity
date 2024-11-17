@@ -49,7 +49,6 @@ body{
 CSS heeft veel meer mogelijkheden om teksten goed leesbaar te maken zoals de `line-height`, `word-break`, `word-spacing`, `letter-spacing` en `hyphens`. 
 
 ### Opdracht 
-
 Onderzoek de [artikelpagina van de Correspondent](https://decorrespondent.nl/15628/alarm-slaan-of-beter-bewijs-zoeken-de-wetenschappelijke-strijd-achter-kantelpunten-in-het-klimaat/babb3b1e-e017-0dcf-24e7-044ff58251d1) en een [artikel van Pixel Ambacht](https://pixelambacht.nl/2021/optical-size-hidden-superpower/) de *properties* en *values* die de websites gebruiken voor goed leesbare teksten.
 
 Schrijf op het whiteboard de
@@ -60,7 +59,6 @@ Schrijf op het whiteboard de
 - Andere interessante CSS properties voor typografie?
 
 ### Bronnen
-
 - [Fundamental text and font styling - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 - [Font properties en shorthand](https://css-tricks.com/almanac/properties/f/font/)
 
@@ -92,7 +90,6 @@ Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zij
 *Monospaced letters zijn allemaal even breed.*
 
 ### Fonts laden
-
 Het is mogelijk om voor jouw website een extern font in te laden. Hiervoor gebruik je `@font-face`. Je roept hiervoor een extern font bestand aan, nadat het geladen is kan je het gebruiken voor je styling. 
 ```css
 @font-face{
@@ -110,8 +107,6 @@ Op deze manier kan je lettertypes gebruiken die niet standaard door een browser 
 - [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 - [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
 - [A complete collection of web safe CSS font stacks](https://www.cssfontstack.com)
-
-
 
 
 ## Micro- en macro-typografie
@@ -134,12 +129,9 @@ Bijna al deze typografische settings kun je met CSS (en HTML) aanpassen.
 > 
 > [Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period) - Ia.net
 
-
 ### Opdracht
-
 Lees het artikel "Web Design is 95% Typography" en onderzoek met welke CSS properties je micro- en macro-typografie kan toepassen. 
 Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping and breaking text* van MDN.
-
 
 ### Bronnen
 - [Web Design is 95% Typography](https://web.archive.org/web/20191218153545/https://ia.net/topics/the-web-is-all-about-typography-period)
@@ -148,32 +140,27 @@ Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping 
 
 
 
-
-
 ## CSS Units
 
 In CSS bestaan er heel veel *units* die je kan gebruiken. 
 
-Er bestaan *absolute length units*, zoals de px (pixel). *Font-relative length units*, zoals de EM en REM. *Viewport relative units* zoals de vw en vh die afhaneklijk zijn can de breedtje of hoogte van de viewpoort. En nog veel meer ...
+Er bestaan *absolute length units*, zoals de px (pixel). 
+*Font-relative length units*, zoals de EM en REM. 
+*Viewport relative units* zoals de vw en vh die afhankelijk zijn van de breedte of hoogte van de viewpoort. 
+En nog veel meer ...
 
 De EM is een *Font-relative length units*. 
-In oorsprong is het de breedthe van de hoofdletter "M" van het lettertype. De EM is een 'relative unit', het is afhankelijk van het font, de font-size en de DPI settings. Het wordt vaak gebruikt voor `font-size` en regellengte omdat je in verhouding tot het font de typografische waardes kan bepaken. 
+In oorsprong is het de breedte van de hoofdletter "M" van het lettertype. 
+De EM is een 'relative unit', het is afhankelijk van het font, de font-size en de DPI settings. 
+Het wordt vaak gebruikt voor de `font-size` en regellengte omdat je in verhouding tot het font de typografische waardes kan bepalen. 
 
-### opdracht
+### Opdracht
 Om te leren wat je zoal kan doen met al die verschillende CSS units ga je de lengte van een zin op verschillende manieren bouwen. 
-
-De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunten: een goede regellengte heeft 45-75 karakters, oftwel 10–12 woorden. 
-
-Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van onderstaande zin op 10-12 woorden komt. Raadpleeg het artikel "CSS values and units" van MDN. Leg uit in je Learning log wat er gebeurt. 
-- Behalve pixels zijn de *Absolute length units* voor het web niet geschikt, lukt het je toch om met `cm` of `mm` een regel van zo'n 10-12 woorden te maken? Hoeveel `px` is dat? 
-- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? 
-- Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
 
 Open je code editor en maak een blanco HTML pagina, noem het file `typography.html` en sla deze op in de repo van je leertaak. 
 Maak een leeg CSS file, noem het `typography.css`, sla het op in dezelfde map als het HTML file.  Voeg het CSS file toe aan het HTML file. 
 
 Gebruik onderstaande HTML *snippet* voor de experimenten: 
-
 ```html
 <article>
   <blockquote cite="http://webtypography.net/2.1.2">
@@ -182,6 +169,12 @@ Gebruik onderstaande HTML *snippet* voor de experimenten:
   <p>—Robert Bringhurst</p>
   </article>
 ```
+De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een goede regellengte heeft 45-75 karakters, oftwel 10–12 woorden. 
+
+Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10-12 woorden komt:
+- Behalve pixels zijn de *Absolute length units* niet geschikt voor het web , lukt het je toch om met `cm` of `mm` een regel van zo'n 10-12 woorden te maken? Hoeveel `px` is dat? 
+- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? 
+- Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
 
 
 
