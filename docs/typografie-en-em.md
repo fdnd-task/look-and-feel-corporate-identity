@@ -20,7 +20,7 @@ body{
 
 ### Aanpak
 
-Eerst ga je websites analyseren om te leren hoe andere websites typografie toepassen. Daarna onderzoek wat micro- en macro-typografie is en hoe je dat in CSS kan toepasen. 
+Eerst ga je websites analyseren om te leren hoe websites typografie toepassen. Daarna ga je onderzoek wat micro- en macro-typografie is en hoe je dat in CSS kan toepasen. 
 Daarna ga je oefenen met verschillende CSS units. 
 
 ## Typografie en CSS properties
@@ -49,7 +49,7 @@ body{
 
 CSS heeft veel meer mogelijkheden om teksten goed leesbaar te maken zoals de `line-height`, `word-break`, `word-spacing`, `letter-spacing` en `hyphens`. 
 
-### Opdracht
+### Opdracht 
 
 Onderzoek op CSS-Tricks en Github welke CSS *properties* en *values* deze websites gebruiken voor goed leesbare teksten.
 
@@ -66,12 +66,60 @@ Schrijf op het whiteboard de
 - [Font properties en shorthand](https://css-tricks.com/almanac/properties/f/font/)
 
 
-## Micro- en macro typografie
 
-Je kan onderscheid maken tussen micro- en macro-typografie. Micro-typografie gaat over de details, zoals letters, spatiering, kerning en woordspatiering.
+## Font-family en lettertypes
+
+Met de *property* `font-family` kan je de browser 'vertellen' welke fonts gebruikt mag worden. 
+Dat ziet er zo uit: 
+```css
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+}
+```
+Hier probeert de browser eerst een extern font te gebruiken. Als dat font niet lukt mag de browser een systeem-font gebruiken. 
+Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *Fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
+
+Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. Zorg ervoor dat je bij de font-family altijd een generiek font naam meegeeft zodat de browser als fallback zelf een passend font gebruikt. 
+
+'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. 
+Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zijn ze beter leesbaar. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans'serif' of schreefloze-letters hebben geen schreef. 
+![](serif-sans-serif.jpg) 
+*Het verschil tussen schreef  (Serif) en schreef-loze (Sans-Serif) lettertypes.*
+
+`Monospace' letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. 
+
+![](monospaced.png) 
+*Monospaced letters zijn allemaal even breed.*
+
+### Fonts laden
+
+Het is mogelijk om voor jouw website een extern font in te laden. Hiervoor gebruik je `@font-face`. Je roept hiervoor een extern font bestand aan, nadat het geladen is kan je het gebruiken voor je styling. 
+```css
+@font-face{
+    font-family: "Open Sans";
+    src: url('opensan.woff2') format('woff2'),
+}
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+}
+```
+Op deze manier kan je lettertypes gebruiken die niet standaard door een browser gebruikt kunnen worden. 
+
+### Bronnen
+- [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+- [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+- [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
+- [A complete collection of web safe CSS font stacks](https://www.cssfontstack.com)
+
+
+
+
+## Micro- en macro-typografie
+
+In typografie is er onderscheid tussen micro- en macro-typografie. Micro-typografie gaat over de details, zoals letters, spatiering, kerning en woordspatiering.
 Macro-typogorafie is meer gericht op het font en de layout.
 
-Bijna al deze typografische settings kun je met CSS instellen.
+Bijna al deze typografische settings kun je met CSS (en HTML) aanpassen.
 
 > Micro typography deals with detailed aspects of type and spacing, focusing on the readability of text:
 > - Tracking and Glyph-width
@@ -90,7 +138,7 @@ Bijna al deze typografische settings kun je met CSS instellen.
 ### Opdracht
 
 Lees het artikel "Web Design is 95% Typography" en onderzoek met welke CSS properties je micro- en macro-typografie kan toepassen. 
-Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping and breaking text* van MDN. 
+Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping and breaking text* van MDN.
 
 
 ### Bronnen
@@ -100,41 +148,6 @@ Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping 
 
 
 
-## Font-family en lettertypes
-
-Aan de *property* `font-family` kan je de browser 'vertellen' dat verschillende fonts gebruikt mogen worden. 
-De browser probeert dan het eerste font te gebruiken, lukt dat niet omdat een font niet beschikbaar is, dan wordt de volgende gebruikt. 
-Dat ziet er zo uit: 
-```css
-body{
-    font-family: "Open Sans", Arial, sans-serif;
-}
-```
-Hier probeert de browser eerst een extern font te laden. 
-Daarna mag de browser een systeem-font gebruiken. 
-Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *Fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
-
-Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. Zorg ervoor dat je bij de font-family altijd een generiek font naam meegeeft zodat de browser als fallback zelf een passend font gebruikt. 
-
-'Serif' of schreef-letters hebben kleine uitstekels aan de stokken en staarten. 
-Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zijn ze beter leesbaar. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans'serif' of schreefloze-letters hebben geen schreef. 
-![](serif-sans-serif.jpg) 
-*Serif letters hebben schreven, sans-serif niet.*
-
-`Monospace' letters zijn allemaal even breed. Voordeel hiervan is dat dat goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. 
-
-![](monospaced.png) 
-*Monospaced letters zijn allemaal even breed*
-
-#### Fonts laden met fallback
-
-Hier (korte) uitleg over @font-face
-
-
-### Bronnen
-- [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
-- [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
-- [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
 
 ## CSS Units
