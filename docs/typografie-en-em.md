@@ -95,8 +95,8 @@ Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping 
 
 ### Bronnen
 - [Web Design is 95% Typography](https://web.archive.org/web/20191218153545/https://ia.net/topics/the-web-is-all-about-typography-period)
-- https://cssreference.io/typography
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text
+- [Typography properties - CSS Reference](https://cssreference.io/typography)
+- [Wrapping and Breaking text - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text)
 
 
 
