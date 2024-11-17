@@ -4,10 +4,9 @@
 
 <!-- Over fonts, regellengte en responsive layouts coderen met EM, en andere CSS units  -->
 
-In de sprint *Look & Feel* leer je meer technieken over hoe je goede typografie kan ontwerpen en bouwen.
+In deze sprint *Look & Feel* leer je meer CSS technieken voor typografie.
 
-In sprint 2 is typografie en leesbaarheid al een keer behandeld.
-De basis regels voor goede leesbare teksten op het web zijn:
+In sprint 2 heb je geleerd de basis regels voor goede leesbare teksten op het web geleerd:
 De font size is minimaal `16px`, een goede regellengte is 10-12 woorden en niet langer dan `40em` en de regellafstand is `140%`.
 
 ```css
@@ -151,8 +150,47 @@ Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping 
 
 
 ## CSS Units
-Font sizes en regellengte met verschillende units
-Font size en regellengte met (R)EM
+
+In CSS bestaan er heel veel *units* die je kan gebruiken. 
+
+Er bestaan *absolute length units*, zoals de px (pixel). *Font-relative length units*, zoals de EM en REM. *Viewport relative units* zoals de vw en vh die afhaneklijk zijn can de breedtje of hoogte van de viewpoort. En nog veel meer ...
+
+De EM is een *Font-relative length units*. 
+In oorsprong is het de breedthe van de hoofdletter "M" van het lettertype. De EM is een 'relative unit', het is afhankelijk van het font, de font-size en de DPI settings. Het wordt vaak gebruikt voor `font-size` en regellengte omdat je in verhouding tot het font de typografische waardes kan bepaken. 
+
+### opdracht
+Om te leren wat je zoal kan doen met al die verschillende CSS units ga je de lengte van een zin op verschillende manieren bouwen. 
+
+De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunten: een goede regellengte heeft 45-75 karakters, oftwel 10–12 woorden. 
+
+Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van onderstaande zin op 10-12 woorden komt. Raadpleeg het artikel "CSS values and units" van MDN. Leg uit in je Learning log wat er gebeurt. 
+- Behalve pixels zijn de *Absolute length units* voor het web niet geschikt, lukt het je toch om met `cm` of `mm` een regel van zo'n 10-12 woorden te maken? Hoeveel `px` is dat? 
+- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? 
+- Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
+
+Open je code editor en maak een blanco HTML pagina, noem het file `typography.html` en sla deze op in de repo van je leertaak. 
+Maak een leeg CSS file, noem het `typography.css`, sla het op in dezelfde map als het HTML file.  Voeg het CSS file toe aan het HTML file. 
+
+Gebruik onderstaande HTML *snippet* voor de experimenten: 
+
+```html
+<article>
+  <blockquote cite="http://webtypography.net/2.1.2">
+    <p>Anything from 45 to 75 characters is widely regarded as a satisfactory line length for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters.</p>
+  </blockquote>
+  <p>—Robert Bringhurst</p>
+  </article>
+```
+
+
+
+
+### Bronnen
+
+- [CSS values and units - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+- [The amazing em unit and other best practices](https://www.w3.org/Style/LieBos3e/em)
+- [Em (typography) - Wikipedia](https://en.wikipedia.org/wiki/Em_(typography))
+
 
 
 <!-->
