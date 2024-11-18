@@ -21,7 +21,7 @@ body{
 
 Eerst ga je websites analyseren om te leren hoe websites typografie toepassen. 
 Daarna ga je zelf een font maken en in CSS gebruiken. 
-Daarna ga je oefenen met verschillende CSS units. 
+Tot slot ga je oefenen met verschillende CSS units. 
 
 
 ## Typografie en CSS properties
@@ -89,6 +89,8 @@ Bijna al deze typografische settings kun je met CSS (en HTML) aanpassen.
 Lees het artikel "Web Design is 95% Typography" en onderzoek met welke CSS properties je micro- en macro-typografie kan toepassen. 
 Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping and breaking text* van MDN.
 
+Hou in je Learning log bij wat je hebt onderzocht en uitgeprobeerd. 
+
 ### Bronnen
 - [Web Design is 95% Typography](https://web.archive.org/web/20191218153545/https://ia.net/topics/the-web-is-all-about-typography-period)
 - [Typography properties - CSS Reference](https://cssreference.io/typography)
@@ -110,7 +112,7 @@ Hier probeert de browser eerst een extern font te gebruiken. Als dat font niet l
 Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
 
 Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. 
-Zorg ervoor dat je bij de font-family altijd een generieke font-family naam meegeeft zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt, dit is meestal de *Times* ... 
+Zorg ervoor dat je bij de font-family altijd een generieke font-family meegeeft zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt. Dit is meestal de *Times*, als een gont niet goed geladen wordt of het bestaat niet in een browser wordt de website met de *Times# gerenderd ... aj ...
 
 #### Schreef en schreefloze lettertypes
 'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. 
@@ -133,12 +135,12 @@ Je roept hiervoor een extern font bestand aan, nadat het geladen is kan je het g
     font-family: "Open Sans";
     src: url('opensan.woff2') format('woff2'),
 }
+
 body{
     font-family: "Open Sans", Arial, sans-serif;
 }
 ```
 Op deze manier kan je lettertypes gebruiken die niet standaard door een browser gebruikt kunnen worden. 
-
 
 ### Opdracht
 
@@ -147,11 +149,6 @@ Maak een pixel font met de online tool https://config.aresluna.org
 
 Download het font als OTF font in een folder.
 Gebruik @font-face om het font te laden en gebruiken in CSS. 
-
-
-
-
-
 
 #### Bronnen
 - [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
