@@ -183,7 +183,8 @@ Om te leren wat je zoal kan doen met al die verschillende CSS units ga je de len
 Open je code editor en maak een blanco HTML pagina, noem het file `typography.html` en sla deze op in de repo van je leertaak. 
 Maak een leeg CSS file, noem het `typography.css`, sla het op in dezelfde map als het HTML file.  Voeg het CSS file toe aan het HTML file. 
 
-Gebruik onderstaande HTML *snippet* voor de experimenten: 
+Gebruik onderstaande HTML *snippet* voor de experimenten. 
+Kopieer voor elk experiment deze HTML zodat je zebkan vergelijken:
 ```html
 <article>
   <blockquote cite="http://webtypography.net/2.1.2">
@@ -196,7 +197,7 @@ De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een 
 
 Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10-12 woorden komt:
 - Behalve pixels zijn de *Absolute length units* niet geschikt voor het web , lukt het je toch om met `cm` of `mm` een regel van zo'n 10-12 woorden te maken? Hoeveel `px` is dat? 
-- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? 
+- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? wat gebeurt erbals je dezelfde tekst met een ander dont opnaakt?
 - Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
 
 #### Bronnen
@@ -207,7 +208,7 @@ Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een z
 
 
 
-<!-->
+<!--
 Tot slot ga je leren hoe je op basis van de regellengte een responsive layout kan ontwerpen en bouwen. 
 
 
