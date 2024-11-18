@@ -157,13 +157,14 @@ Op deze manier kan je lettertypes gebruiken die niet standaard in een browser aa
 Voor deze opdracht ga je zelf een font maken en gebruiken in CSS.
 Maak een pixel font met de online tool https://config.aresluna.org
 
-Download het font als OTF font in een folder. Gebruik `@font-face` om het font te laden en gebruiken in CSS. 
+Download het font als OTF font in een folder. Gebruik `@font-face` om het font te laden en gebruiken in CSS. Doe dit bijvoorbeeld op (een onderdeel van) je eigen I Love Web website. Let op: dit is niet het `woff2` format, maar het `opentype` format.
 
 #### Bronnen
 
 - [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
 - [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
-- [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
+- [@font-face @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+- [How to use @font-face in CSS @ CSS Tricks](https://css-tricks.com/snippets/css/using-font-face-in-css/)
 <!-- - [A complete collection of web safe CSS font stacks](https://www.cssfontstack.com) -->
 - Marcin Wichary, Director of Design van Figma, laat zien hoe vet pixel fonts zijn: [In defense of an old pixel](https://www.youtube.com/watch?app=desktop&v=SDI8ubVZi7w)
 
