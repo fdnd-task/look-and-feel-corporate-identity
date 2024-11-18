@@ -19,8 +19,10 @@ body{
 
 ### Aanpak
 
-Eerst ga je websites analyseren om te leren hoe websites typografie toepassen. Daarna ga je onderzoek wat micro- en macro-typografie is en hoe je dat in CSS kan toepasen. 
+Eerst ga je websites analyseren om te leren hoe websites typografie toepassen. 
+Daarna ga je zelf een font maken en in CSS gebruiken. 
 Daarna ga je oefenen met verschillende CSS units. 
+
 
 ## Typografie en CSS properties
 
@@ -63,53 +65,7 @@ Schrijf op het whiteboard de
 - [Font properties en shorthand](https://css-tricks.com/almanac/properties/f/font/)
 
 
-
-## Font-family en lettertypes
-
-Met de *property* `font-family` kan je de browser 'vertellen' welke fonts gebruikt mag worden. 
-Dat ziet er zo uit: 
-```css
-body{
-    font-family: "Open Sans", Arial, sans-serif;
-}
-```
-Hier probeert de browser eerst een extern font te gebruiken. Als dat font niet lukt mag de browser een systeem-font gebruiken. 
-Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
-
-Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. 
-Zorg ervoor dat je bij de font-family altijd een generieke font-family naam meegeeft zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt, dit is meestal de *Times* ... 
-
-'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. 
-Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zijn ze beter leesbaar. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans'serif' of schreefloze-letters hebben geen schreef. 
-![](serif-sans-serif.jpg) 
-*Het verschil tussen schreef  (Serif) en schreef-loze (Sans-Serif) lettertypes.*
-
-`Monospace' letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. 
-
-![](monospaced.png) 
-*Monospaced letters zijn allemaal even breed.*
-
-### Fonts laden
-Het is mogelijk om voor jouw website een extern font in te laden. Hiervoor gebruik je `@font-face`. Je roept hiervoor een extern font bestand aan, nadat het geladen is kan je het gebruiken voor je styling. 
-```css
-@font-face{
-    font-family: "Open Sans";
-    src: url('opensan.woff2') format('woff2'),
-}
-body{
-    font-family: "Open Sans", Arial, sans-serif;
-}
-```
-Op deze manier kan je lettertypes gebruiken die niet standaard door een browser gebruikt kunnen worden. 
-
-### Bronnen
-- [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
-- [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
-- [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
-- [A complete collection of web safe CSS font stacks](https://www.cssfontstack.com)
-
-
-## Micro- en macro-typografie
+## Micro- en macro-typografie (advanced)
 
 In typografie is er onderscheid tussen micro- en macro-typografie. Micro-typografie gaat over de details, zoals letters, spatiering, kerning en woordspatiering.
 Macro-typogorafie is meer gericht op het font en de layout.
@@ -137,6 +93,73 @@ Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping 
 - [Web Design is 95% Typography](https://web.archive.org/web/20191218153545/https://ia.net/topics/the-web-is-all-about-typography-period)
 - [Typography properties - CSS Reference](https://cssreference.io/typography)
 - [Wrapping and Breaking text - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text)
+
+
+
+
+## Font-family en lettertypes
+
+Met de *property* `font-family` kan je de browser 'vertellen' welke fonts gebruikt mag worden. 
+Dat ziet er zo uit: 
+```css
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+}
+```
+Hier probeert de browser eerst een extern font te gebruiken. Als dat font niet lukt mag de browser een systeem-font gebruiken. 
+Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. Dit wordt *fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
+
+Er bestaan verschillende soorten font-familie soorten, zoals `serif`, `sans-serif` en `monospace`. 
+Zorg ervoor dat je bij de font-family altijd een generieke font-family naam meegeeft zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt, dit is meestal de *Times* ... 
+
+#### Schreef en schreefloze lettertypes
+'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. 
+Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zijn ze beter leesbaar. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans'serif' of schreefloze-letters hebben geen schreef. 
+![](serif-sans-serif.jpg) 
+*Het verschil tussen schreef  (Serif) en schreef-loze (Sans-Serif) lettertypes.*
+
+#### Monospace lettertypes
+`Monospace' letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. 
+
+![](monospaced.png) 
+*Monospaced letters zijn allemaal even breed.*
+
+#### Fonts laden
+Het is mogelijk om voor jouw website een extern font in te laden. 
+Hiervoor gebruik je `@font-face`. 
+Je roept hiervoor een extern font bestand aan, nadat het geladen is kan je het gebruiken voor je styling. 
+```css
+@font-face{
+    font-family: "Open Sans";
+    src: url('opensan.woff2') format('woff2'),
+}
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+}
+```
+Op deze manier kan je lettertypes gebruiken die niet standaard door een browser gebruikt kunnen worden. 
+
+
+### Opdracht
+
+Voor deze opdracht ga je zelf een font maken en gebruiken in CSS.
+Maak een pixel font met de online tool https://config.aresluna.org
+
+Download het font als OTF font in een folder.
+Gebruik @font-face om het font te laden en gebruiken in CSS. 
+
+
+
+
+
+
+#### Bronnen
+- [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+- [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+- [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
+<!-- - [A complete collection of web safe CSS font stacks](https://www.cssfontstack.com) -->
+- Marcin Wichary, Director of Design van Figma, laat zien hoe vet pixel fonts zijn: [In defense of an old pixel](https://www.youtube.com/watch?app=desktop&v=SDI8ubVZi7w)
+
 
 
 
@@ -176,10 +199,7 @@ Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een z
 - Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? 
 - Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
 
-
-
-
-### Bronnen
+#### Bronnen
 
 - [CSS values and units - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 - [The amazing em unit and other best practices](https://www.w3.org/Style/LieBos3e/em)
