@@ -187,7 +187,7 @@ Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een z
 
 
 
-<!-->
+<!--
 Tot slot ga je leren hoe je op basis van de regellengte een responsive layout kan ontwerpen en bouwen. 
 
 
