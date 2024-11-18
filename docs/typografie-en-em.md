@@ -6,12 +6,12 @@
 
 In deze sprint *Look & Feel* leer je meer CSS technieken voor typografie.
 
-In sprint 2 heb je geleerd de basis regels voor goede leesbare teksten op het web geleerd:
-De font size is minimaal `16px`, een goede regellengte is 10-12 woorden en niet langer dan `40em` en de regellafstand is `140%`.
+In Sprint 2 heb je de basisregels voor goede leesbare teksten op het web geleerd:
+De font size is minimaal `16px`, een goede regellengte is 10–12 woorden en niet langer dan `40em` en de regellafstand is `140%`.
 
 ```css
-body{
-    font-family: "Open Sans", Helvetica, sans-serif;
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.4;
 }
@@ -26,14 +26,15 @@ Tot slot ga je oefenen met verschillende CSS units.
 
 ## Typografie en CSS properties
 
-"Web Design is 95% typography"
+“Web Design is 95% typography”
 
 Dit schrijft het designbureau IA.net. Een website bestaat niet alleen uit titels en de teksten, maar ook uitleg bij foto's, button, en bijvoorbeeld labels van formulier-elementen bevatten tekst. 
 
 In CSS bestaan veel *properties* om fonts goed vorm te geven, zoals `font-family`, `font-weight`, `font-stretch`, `font-variant`, `font-size`.
+
 ```css
-body{
-    font-family: "Open Sans", Arial, sans-serif;
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.4;
     font-weight: normal; 
     font-stretch: normal;
@@ -41,34 +42,37 @@ body{
     font-size: 16px;
 }
 ```
+
 Deze *properties* kan je ook met de font *shorthand* schrijven, dat ziet er zo uit: 
 ```css
-body{
-    font: normal small-caps normal 16px/1.5 "Open Sans", Arial, sans-serif;
+body {
+    font: normal small-caps normal 16px/1.5 'Open Sans', Arial, sans-serif;
 }
 ```
 
-CSS heeft veel meer mogelijkheden om teksten goed leesbaar te maken zoals de `line-height`, `word-break`, `word-spacing`, `letter-spacing` en `hyphens`. 
+CSS heeft veel meer mogelijkheden om teksten goed leesbaar te maken, zoals `line-height`, `word-break`, `word-spacing`, `letter-spacing` en `hyphens`. 
 
-### Opdracht 
-Onderzoek de [artikelpagina van de Correspondent](https://decorrespondent.nl/15628/alarm-slaan-of-beter-bewijs-zoeken-de-wetenschappelijke-strijd-achter-kantelpunten-in-het-klimaat/babb3b1e-e017-0dcf-24e7-044ff58251d1) en een [artikel van Pixel Ambacht](https://pixelambacht.nl/2021/optical-size-hidden-superpower/) de *properties* en *values* die de websites gebruiken voor goed leesbare teksten.
+### Opdracht
 
-Schrijf op het whiteboard de
+Onderzoek bij de [artikelpagina van de Correspondent](https://decorrespondent.nl/15628/alarm-slaan-of-beter-bewijs-zoeken-de-wetenschappelijke-strijd-achter-kantelpunten-in-het-klimaat/babb3b1e-e017-0dcf-24e7-044ff58251d1) en een [artikel van Pixel Ambacht](https://pixelambacht.nl/2021/optical-size-hidden-superpower/) de *properties* en *values* die de websites gebruiken voor goed leesbare teksten.
+
+Schrijf op het whiteboard per website de
 - font-family
 - font-size
 - line-height 
-- Breedte van het tekst element
-- Andere interessante CSS properties voor typografie?
+- Breedte van het tekst element op verschillende viewport sizes
+- Andere interessante CSS properties voor typografie
 
 ### Bronnen
+
 - [Fundamental text and font styling - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 - [Font properties en shorthand](https://css-tricks.com/almanac/properties/f/font/)
 
 
 ## Micro- en macro-typografie (advanced)
 
-In typografie is er onderscheid tussen micro- en macro-typografie. Micro-typografie gaat over de details, zoals letters, spatiering, kerning en woordspatiering.
-Macro-typogorafie is meer gericht op het font en de layout.
+In typografie is er onderscheid tussen micro- en macro-typografie. Micro-typografie gaat over de details, zoals letters, spatiëring, _kerning_ en woordspatiëring.
+Macro-typografie is meer gericht op het font en de layout.
 
 Bijna al deze typografische settings kun je met CSS (en HTML) aanpassen.
 
@@ -86,73 +90,77 @@ Bijna al deze typografische settings kun je met CSS (en HTML) aanpassen.
 > [Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period) - Ia.net
 
 ### Opdracht
-Lees het artikel "Web Design is 95% Typography" en onderzoek met welke CSS properties je micro- en macro-typografie kan toepassen. 
+
+Lees het artikel “Web Design is 95% Typography” en onderzoek met welke CSS properties je micro- en macro-typografie kan toepassen. 
 Gebruik hiervoor de lijst op CSS Reference *Typography properties* en *Wrapping and breaking text* van MDN.
 
-Hou in je Learning log bij wat je hebt onderzocht en uitgeprobeerd. 
+Hou in je Learning Journal bij wat je hebt onderzocht en uitgeprobeerd. 
 
 ### Bronnen
-- [Web Design is 95% Typography](https://web.archive.org/web/20191218153545/https://ia.net/topics/the-web-is-all-about-typography-period)
+
+- [Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period)
 - [Typography properties - CSS Reference](https://cssreference.io/typography)
 - [Wrapping and Breaking text - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text)
 
 
-
-
 ## Font-family en lettertypes
 
-Met de *property* `font-family` kan je de browser 'vertellen' welke fonts gebruikt mag worden. 
-Dat ziet er zo uit: 
+Met de *property* `font-family` kan je de browser 'vertellen' welke fonts je wilt gebruiken, via een _font stack_. Dat ziet er zo uit: 
+
 ```css
-body{
-    font-family: "Open Sans", Arial, sans-serif;
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 ```
-Hier probeert de browser eerst een extern font te gebruiken. Als dat font niet lukt mag de browser een systeem-font gebruiken. 
-Als dat font niet bestaat dan mag de browser zelf een`sans-serif` font gebruiken om de website te renderen. 
-Dit wordt *fallback* genoemd, zo zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
 
-Er bestaan verschillende soorten font-families, zoals `serif`, `sans-serif` en `monospace`. 
-Zorg ervoor dat je bij de font-family altijd een generieke font-family meegeeft zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt. 
-Dit is meestal de *Times*, als een font niet goed geladen wordt of het bestaat niet in een browser wordt de website met de *Times* gerenderd ... aj ...
+Hier probeert de browser eerst een extern font te gebruiken, Open Sans. Als dat font niet lukt, mag de browser een systeem-font gebruiken, Arial. 
+Als dat font niet bestaat, dan mag de browser zelf een _generiek_ `sans-serif` font gebruiken om de website te renderen. 
+Dit wordt de *font stack* genoemd, en hiermee zorg je ervoor dat de website altijd zo goed mogelijk gerenderd zal worden.
 
-#### Schreef en schreefloze lettertypes
-'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. 
-Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus zijn ze beter leesbaar. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans'serif' of schreefloze-letters hebben geen schreef. 
+Er bestaan verschillende soorten generieke font-families, zoals `serif`, `sans-serif` en `monospace`. Zorg ervoor dat je bij de font-family altijd een generieke font-family meegeeft, zodat de browser als fallback een passend font gebruikt en niet de *browser default* gebruikt (meestal *Times New Roman*).
+
+### Schreef en schreefloze lettertypes
+
+'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus beter leesbaar zijn. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans-serif' of schreefloze-letters hebben geen schreef.
 ![](serif-sans-serif.jpg) 
-*Het verschil tussen schreef  (Serif) en schreef-loze (Sans-Serif) lettertypes.*
+*Het verschil tussen schreef (Serif) en schreef-loze (Sans-Serif) lettertypes.*
 
-#### Monospace lettertypes
-`Monospace' letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. 
+### Monospace lettertypes
+
+`Monospace` letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. (Voor getallen kun je ook `font-variant-numeric` gebruiken, als je lettertype dit ondersteunt.)
 
 ![](monospaced.png) 
 *Monospaced letters zijn allemaal even breed.*
 
-#### Fonts laden
+
+### Fonts laden
+
 Het is mogelijk om voor jouw website een extern font in te laden. 
 Hiervoor gebruik je `@font-face`. 
-Je roept hiervoor een extern font bestand aan, nadat het geladen is kan je het gebruiken voor je styling. 
+Je roept hiervoor een extern font bestand aan. Nadat het geladen is, kan je het gebruiken voor je styling. 
+
 ```css
-@font-face{
-    font-family: "Open Sans";
-    src: url('opensan.woff2') format('woff2'),
+@font-face {
+    font-family: 'Open Sans';
+    src: url('opensans.woff2') format('woff2');
 }
 
-body{
-    font-family: "Open Sans", Arial, sans-serif;
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 ```
-Op deze manier kan je lettertypes gebruiken die niet standaard door een browser gebruikt kunnen worden. 
+
+Op deze manier kan je lettertypes gebruiken die niet standaard in een browser aanwezig zijn. 
 
 ### Opdracht
 
 Voor deze opdracht ga je zelf een font maken en gebruiken in CSS.
 Maak een pixel font met de online tool https://config.aresluna.org
 
-Download het font als OTF font in een folder.
-Gebruik @font-face om het font te laden en gebruiken in CSS. 
+Download het font als OTF font in een folder. Gebruik `@font-face` om het font te laden en gebruiken in CSS. 
 
 #### Bronnen
+
 - [Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
 - [Font Family - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 - [How to use @font-face in CSS](https://css-tricks.com/snippets/css/using-font-face-in-css/)
@@ -160,43 +168,45 @@ Gebruik @font-face om het font te laden en gebruiken in CSS.
 - Marcin Wichary, Director of Design van Figma, laat zien hoe vet pixel fonts zijn: [In defense of an old pixel](https://www.youtube.com/watch?app=desktop&v=SDI8ubVZi7w)
 
 
-
-
 ## CSS Units
 
 In CSS bestaan er heel veel *units* die je kan gebruiken. 
 
-Er bestaan *absolute length units*, zoals de px (pixel). 
-*Font-relative length units*, zoals de EM en REM. 
-*Viewport relative units* zoals de vw en vh die afhankelijk zijn van de breedte of hoogte van de viewpoort. 
+Er bestaan *absolute length units*, zoals de `px` (pixel). 
+*Font-relative length units*, zoals de `em` en `rem`. 
+*Viewport relative units* zoals de `vw` en `vh`, die afhankelijk zijn van de breedte of hoogte van de viewport. 
 En nog veel meer ...
 
 De EM is een *Font-relative length units*. 
-In oorsprong is het de breedte van de hoofdletter "M" van het lettertype. 
+In oorsprong is het de breedte van de hoofdletter “M” van het lettertype. 
 De EM is een 'relative unit', het is afhankelijk van het font, de font-size en de DPI settings. 
-Het wordt vaak gebruikt voor de `font-size` en regellengte omdat je in verhouding tot het font de typografische waardes kan bepalen. 
+Het wordt vaak gebruikt voor de `font-size` en regellengte, omdat je in verhouding tot het font de typografische waardes kan bepalen. 
 
 ### Opdracht
+
 Om te leren wat je zoal kan doen met al die verschillende CSS units ga je de lengte van een zin op verschillende manieren bouwen. 
 
-Open je code editor en maak een blanco HTML pagina `typography.html` en sla deze op in de repo van je leertaak. 
-Maak een leeg CSS file `typography.css` en voeg het toe aan het HTML file. 
+Open je code editor en maak een blanco HTML pagina `font.html` en sla deze op in de repo van je leertaak.
+Maak een leeg CSS file `font.css` en voeg het toe aan het HTML file. 
 
 Gebruik onderstaande HTML *snippet* voor de experimenten. 
 Kopieer voor elk experiment deze HTML zodat je ze kan vergelijken:
+
 ```html
-<article>
+<section>
   <blockquote cite="http://webtypography.net/2.1.2">
     <p>Anything from 45 to 75 characters is widely regarded as a satisfactory line length for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters.</p>
   </blockquote>
   <p>—Robert Bringhurst</p>
-  </article>
+</section>
 ```
-De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een goede regellengte heeft 45-75 karakters, oftwel 10–12 woorden. 
+
+De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een goede regellengte heeft 45–75 karakters, oftwel 10–12 woorden. 
 
 Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10-12 woorden komt:
-- Behalve pixels zijn de *Absolute length units* niet geschikt voor het web , lukt het je toch om met `cm` of `mm` een regel van zo'n 10-12 woorden te maken? Hoeveel `px` is dat? 
-- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? wat gebeurt er als je dezelfde tekst ala je een ander font gebruikt?
+
+- Behalve pixels zijn de *Absolute length units* niet geschikt voor het web, lukt het je toch om met `cm` of `mm` een regel van zo'n 10–12 woorden te maken? Hoeveel `px` is dat? 
+- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? wat gebeurt er als je dezelfde tekst met een ander font gebruikt?
 - Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
 
 #### Bronnen
@@ -204,7 +214,6 @@ Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een z
 - [CSS values and units - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 - [The amazing em unit and other best practices](https://www.w3.org/Style/LieBos3e/em)
 - [Em (typography) - Wikipedia](https://en.wikipedia.org/wiki/Em_(typography))
-
 
 
 <!--
