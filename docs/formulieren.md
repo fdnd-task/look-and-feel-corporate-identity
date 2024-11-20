@@ -16,7 +16,7 @@ In de Code & Design Review van komende vrijdag gaan we kijken hoe je formulierel
 
 Zoals je in de HTML van de styleguide repository misschien al hebt gezien, zijn er verschillende invoervelden (`<input>` types) die je kunt gebruiken in je werk. Elk `type` attribuut verandert de werking van het invoerveld in verschillende browsers.
 
-Onderzoek met je tafel aan de hand van de MDN bronnen hieronder welke verschillende `<input>` types er zijn, en schrijf deze allemaal op het whiteboard. Schets bij elk type een voorbeeld, en schrijf bij elk type een uniek attribuut dat iets verandert aan de werking van dat formulierelement. Open `edu.nl/ptpvy` op je telefoon, en markeer op het whiteboard welke types een andere werking hebben tussen verschillende browsers en operating systems, als je iets probeert in te voeren.
+Onderzoek met je tafel aan de hand van de MDN bronnen hieronder welke verschillende `<input>` types er zijn, en schrijf deze allemaal op het whiteboard. Schets bij elk type een voorbeeld, en schrijf bij elk type een uniek ander attribuut dat iets verandert aan de werking van dat formulierelement. Onderzoek bijvoorbeeld wat de `min`, `step` of `multiple` attributen doen, en bij welke types. Open `edu.nl/ptpvy` op je telefoon, en markeer op het whiteboard welke types een andere functionaliteit hebben tussen verschillende browsers en operating systems, als je iets probeert in te voeren.
 
 💪 Wil je meer uitdaging? Laat dan ook per `<input>` type op het whiteboard zien (met een schets of uitleg) of het `list` attribuut hierop gebruikt kan worden, en wat dat doet.
 
