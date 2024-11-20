@@ -29,18 +29,25 @@ Onderzoek met je tafel aan de hand van de MDN bronnen hieronder welke verschille
 
 Voor het stylen van formulierelementen biedt CSS een hoop leuke extra's. Natuurlijk kun je kleuren, borders en bijvoorbeeld het lettertype van een formulierelement veranderen, maar in CSS zijn ook een aantal dingen specifiek voor formulierelementen beschikbaar. En die gaan we nu onderzoeken.
 
-Op het whiteboard staan een aantal `<input>` types. Verdeel de types eerlijk over de tafel, zodat iedereen 2–4 types krijgt, waar die nog niet mee gewerkt heeft. Open je code editor, maak een blanco HTML pagina, `inputs.html`, en sla deze op in de repo van je leertaak. Maak een leeg CSS bestand, `inputs.css`, en link deze in je HTML. Schrijf de basic HTML voor de input types die jij hebt gekregen. Analyseer en onderzoek voor die types met onderstaande bron welke specifieke CSS je kunt gebruiken, en schets en bouw daarmee een paar kleine demo's. Daag jezelf uit door _selectors_, _properties_ en/of _values_ toe te passen, die je nog niet eerder hebt gebruikt of gezien. Schrijf als je klaar bent op het whiteboard bij “jouw” `<input>` types met een andere kleur een CSS _selector_, _property_, of _value_ die je gebruikt hebt in je code.
+Op het whiteboard staan een aantal `<input>` types. Verdeel de types eerlijk over de tafel, zodat iedereen 2–4 types krijgt, waar die nog niet mee gewerkt heeft. Open je code editor, maak een blanco HTML pagina, `inputs.html`, en sla deze op in de repo van je leertaak. Maak een leeg CSS bestand, `inputs.css`, en link deze in je HTML. Schrijf de basic HTML voor de input types die jij hebt gekregen. Analyseer en onderzoek voor die types met onderstaande bron welke specifieke CSS je kunt gebruiken, en schets en bouw daarmee een paar kleine demo's. Daag jezelf uit door _selectors_, _properties_ en/of _values_ toe te passen, die je nog niet eerder hebt gebruikt of gezien. Schrijf als je klaar bent op het whiteboard bij “jouw” `<input>` types met een andere kleur een CSS _selector_, _property_, of _value_ die je gebruikt hebt in je code. Bespreek opvallende dingen met elkaar, en leg je demo uit aan anderen.
 
-💪 Snel klaar, en wil je meer uitdaging? Maak een aantal demo's van hoe je `:user-invalid` kunt combineren met verschillende `<input>` types en attributen.
+💅 Snel klaar, en wil je meer uitdaging? Maak een aantal demo's van hoe je `:user-invalid` kunt combineren met verschillende `<input>` types en attributen.
 
 ### Bronnen
 
 - [CSS voor `<input>` elements @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#css)
 
 
-## De gedeelde stylesheet uitbreiden
+## De gedeelde stylesheet uitbreiden (30 minuten)
 
+De stylesheet die je samen met je projectgroep hebt gemaakt, bevat een aantal standaard formulierelementen. Waarschijnlijk heb je een deel al gestyled, en een deel nog niet. We gaan nu een aantal elementen samen stylen, waardoor ook formulierelementen en de interactie daarbinnen de _look & feel_ van de opdrachtgever krijgen.
 
+Via de `accent-color` property in CSS kun je de huisstijl van de opdrachtgever relatief makkelijk toepassen op een aantal invoervelden, zoals radio's en checkboxen. Met de _`:focus` selector_ kun je de _focus state_ van een invoerelement aanpassen. Beide staan beschreven in de bronnen hieronder. Overleg met je projectgroep hoe je deze twee toe kunt passen op een manier die ook herbruikbaar is in je eigen project. Verdeel eventueel de verschillende input types binnen het team, maak issues aan per type, en _assign_ deze aan de juiste teamleden. Kijk of je de _custom properties_ van bijvoorbeeld kleuren kunt hergebruiken binnen de formulierelementen.
+
+🎯 Zoek je meer uitdaging met je team? Voeg dan ook formulierelementen zoals `<select>` en `<textarea>` toe aan je styleguide en stylesheet, en maak daar ook passende styling voor. Of voeg styling voor bijvoorbeeld de `:required` en `:user-invalid` _states_ toe.
 
 ### Bronnen
 
+- [accent-color @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
+- [:focus @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
+- [:user-invalid @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid)
