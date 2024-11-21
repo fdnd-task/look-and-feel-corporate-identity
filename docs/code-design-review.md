@@ -2,24 +2,23 @@
 
 ## Code/Design Review
 
-Code/Design Review over het toepassen van de styleguide op de leertaak. Eerst kijken naar design (terugpakken bij documenteren van de stylesheet) en daarna doortrekken naar code. 
+Deze week heb je geleerd hoe je een gezamenlijke styleguide toepast op jouw eigen leertaak. Jullie hebben daarnaast meer geleerd over typografie en formulieren. 
 
 <!-- Als er 40 studenten zijn, groepen van 3 maken. 14 groepen maken we dan. -->
 
 ### Aanpak
-Bekijk samen met elkaar de leertaken van elkaar. Jullie gaan één voor één het werk langs van alle leden van je huidige groep. 
+Jullie gaan met elkaar één voor één het werk reviewen binnen jouw groep. Gebruik één laptop om de code van te bekijken en één laptop om issues in te schieten. Onderstaande code- en designreview herhaal je voor elk lid van jullie groep. 
 
-- Pak de gezamenlijke stylesheet erbij en de live link van de student die jullie gaan reviewen. Ga onderstaande checklist langs om te kijken hoe de stylesheet is toegepast in de uitwerking van de website. Schiet issues in waarnodig:
-  -   Komen de kleuren, typografie en fonts overheen?
-  -   Zijn de componenten gestyled zoals aangegeven in de styleguide? Kijk vooral ook naar de details, denk aan afgeronde hoeken, schaduwen en spacing.
-  -   Is er een vorm van consistentie terug te zien in de uitgewerkte versie?
-  -   Zijn alle elementen die op de website staan ook terug te vinden in de stylesheet?
+#### Code review
+Review met elkaar of de stylesheet wordt gebruikt in de leertaak. Schiet issues in waar nodig:
+-   Bekijk of de gezamenlijke stylesheet gelinkt staat in de repo. Is dit ook de meest recente versie van de stylesheet? Pas dit aan als dit nog niet zo is. Los eventuele bugs en conflicterende styling met elkaar op.
+-   Pak de HTMl erbij van de leertaak en ga alle classes na. Komen deze overeen met de classes in de stylesheet? Zo niet, verander dit met jouw groepje. 
+-   Pak de individuel gemaakte CSS file erbij. Ga elke regel in CSS na en kijk of er  gebruik wordt gemaakt van de stylesheet waar mogelijk. Bijvoorbeeld: komen alle kleuren uit de stylesheet? Komen de headings uit de stylesheet? Zijn de buttons overgenomen uit de stylesheet? Pas ook dit met elkaar aan wanneer dit nog niet zo is.
 
-- Pak de code van de leertaak erbij. Review de volgende punten. Schiet issues in waar nodig:
-  - Consistente naamgeving: Is de naamgeving consisitent? Kijk of er een consistente schrijfwijze is gekozen (zoals kebab-case voor CSS-variabelen of selectors, bijvoorbeeld --font-size-large).
-  -  Naamgeving en begrijpelijkheid: Is de naamgeving van variabelen en classes gemakkelijk te volgen?
-  -  Custom properties op juiste element: Worden de custom properties op de juiste plaats toegepast? Bijvoorbeeld, worden custom properties op de :root gedefinieerd? Is dat een bewuste keuze? Of zou het ook op de body kunnen?
- 
-
-  
-- Fonts workshop meenemen.
+#### Design review
+Ga met elkaar na of de styleguide navolgbaar is geïmplementeerd in de leertaak. Pak hiervoor de live link en de styleguide erbij. Schiet issues in waar nodig:
+-   Komen de kleuren, typografie en fonts overeen met die in de styleguide? Zijn er extra kleuren, fonts of andere font-sizes toegevoegd?
+-   Zijn de kleuren op de juiste manier toegepast? Hoe zijn jullie daarachter gekomen? Is dit terug te vinden in de styleguide? 
+-   Zijn de componenten vormgegeven zoals aangegeven in de styleguide? Kijk vooral ook naar de details, denk aan afgeronde hoeken, schaduwen en spacing.
+-   Is er een vorm van consistentie terug te zien in de uitgewerkte versie?
+-   Zijn alle elementen die op de website staan ook terug te vinden in de stylesheet? Zo nee, waar zou dit onder kunnen vallen in de styleguide?
