@@ -190,7 +190,7 @@ Voor deze opdracht ga je spelen met de CSS principes _Cascade_ en _Specificity_ 
 Je gaat 4 experimenten doen. 
 Beantwoord de bijhorende vragen in je Learning log en probeer uit te leggen wat er gebeurt. 
 
-Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html` en sla deze op in de repo van je leertaak. 
+Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html`, en sla deze op in jouw i-love-web repo. 
 Maak een leeg CSS file, noem het `specificity.css`, sla het op in dezelfde map als het HTML file. 
 Voeg de gemeenschappelijke stylesheet toe in de `<head>` van het HTML file en daaronder het lege CSS file. 
 Dat ziet er dan zo uit in de HTML: 
