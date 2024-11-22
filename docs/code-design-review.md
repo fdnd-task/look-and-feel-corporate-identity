@@ -27,6 +27,6 @@ Ga met elkaar na of de styleguide navolgbaar toegepast is in de leertaak. Pak hi
 
 -   Komen de kleuren, typografie en fonts overeen met die in de styleguide? Zijn er extra kleuren, fonts of andere font-sizes toegevoegd? Moeten die opgenomen worden in de styleguide?
 -   Zijn de kleuren op de juiste manier toegepast? Hoe hebben jullie dat gecontroleerd? Is dit terug te vinden in de styleguide?
--   Zijn de componenten vormgegeven zoals aangegeven in de styleguide? Kijk vooral ook naar de details, denk aan afgeronde hoeken, schaduwen en spacing.
+-   Zijn de componenten vormgegeven zoals aangegeven in de styleguide? Kijk vooral ook naar de details, denk aan afgeronde hoeken, schaduwen en spacing. Zijn hier afspraken over gemaakt?
 -   Is er consistentie te zien in de uitgewerkte versie?
 -   Zijn alle elementen die op de website staan ook terug te vinden in de styleguide? Zo nee, waar zou dit onder kunnen worden opgenomen?
