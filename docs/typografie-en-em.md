@@ -132,7 +132,6 @@ Er bestaan verschillende soorten generieke font-families, zoals `serif`, `sans-s
 ![](monospaced.png) 
 *Monospaced letters zijn allemaal even breed.*
 
-
 ### Fonts laden
 
 Het is mogelijk om voor jouw website een extern font in te laden. 
@@ -187,7 +186,7 @@ Het wordt vaak gebruikt voor de `font-size` en regellengte, omdat je in verhoudi
 
 Om te leren wat je zoal kan doen met al die verschillende CSS units ga je de lengte van een zin op verschillende manieren bouwen. 
 
-Open je code editor en maak een blanco HTML pagina `font.html` en sla deze op in de repo van je leertaak.
+Open je code editor en maak een blanco HTML pagina `font.html`,  en sla deze op in jouw i-love-web repo. 
 Maak een leeg CSS file `font.css` en voeg het toe aan het HTML file. 
 
 Gebruik onderstaande HTML *snippet* voor de experimenten. 
