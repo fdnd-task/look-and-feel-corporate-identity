@@ -12,14 +12,14 @@ Jullie gaan elkaars werk één voor één reviewen binnen de groep. Gebruik éé
 
 #### Code review
 
-Het doel van deze sprint is om in de HTML van de leertaak enkele `classes` uit de gedeelde styleguide te gebruiken, dus daar gaat deze code review over. Controleer gezamenlijk of de stylesheet correct wordt gebruikt in de leertaak en schiet issues in waar nodig:
+Een doel van deze sprint is om in de HTML van de leertaak de gedeelde styleguide te gebruiken, dus daar gaat deze code review over. Zorg dat de laatste versie van de gedeelde styleguide live staat op GitHub en beschikbaar is via GitHub Pages.
 
--   Controleer of de gedeelde stylesheet correct is gelinkt in de repository, via een `<link>` tag naar de stylesheet op GitHub Pages van de gedeelde repository. Staat daar ook de meest recente versie van die stylesheet live? Pas dit aan als dat nog niet het geval is. Los eventuele bugs en conflicterende styling in je leertaak samen op. Het kan goed zijn dat jullie hiervoor _specifiekere selectors_ in de gedeelde stylesheet moeten maken. Maak hiervoor issues aan in de _gedeelde repository_, en verdeel deze binnen het team. Voorbeeld: “De font styling op de `body` is te algemeen, en conflicteert met de styling van mijn eigen `header`. De selector voor font styling in onze gedeelde stylesheet moet minder algemeen.”
--   Doe een code review op de HTML uit de leertaak, en controleer of er inderdaad gebruikt wordt gemaakt van CSS uit de gedeelde stylesheet. Zo niet, maak dan een issue aan op de leertaak. Voorbeeld: “Je gebruikt voor het stylen van je alinea's nog geen CSS uit de gedeelde stylesheet; gebruik hiervoor `class="font-xl"`, waardoor die `class` uit de gedeelde stylesheet gebruikt wordt.”
--   Bekijk het individueel gemaakte CSS-bestand uit de leertaak. Loop alle regels in de CSS door, en kijk of er styling in staat die ook in de gedeelde stylesheet staat. Schiet issues in op de leertaak, bijvoorbeeld over:
-    -   Komt de styling van alle kleuren uit de gedeelde stylesheet?
-    -   Komt de styling voor typografie uit de gedeelde stylesheet?
-    -   Komt de styling voor formulierelementen uit de gedeelde stylesheet?
+We gaan kijken of zowel de gedeelde stylesheet, als je eigen stylesheet, gebruikt wordt in de leertaak. Controleer dit gezamenlijk, en schiet issues in waar nodig.
+
+-   Stap 1: Controleer of de gedeelde stylesheet correct is gelinkt in de repository, via een `<link>` tag naar de stylesheet op GitHub Pages van de gedeelde repository. Zo niet, maak dan een issue aan op de leertaak, en laat de ander dit meteen oplossen (en dat issue sluiten).
+-   Stap 2: Controleer of de styles uit de gedeelde stylesheet conflicteren met die uit de leertaak, en zoek uit hoe dit komt. Waarschijnlijk door de _specificity_ van de selectors: het kan goed zijn dat er te algemene selectors in de gedeelde stylesheet staan. Maak in dat geval issues aan in de _gedeelde repository_. Voorbeeld: “De font styling op de `body` is te algemeen, en conflicteert met de styling van mijn eigen `header`. De selector voor font styling in onze gedeelde stylesheet moet minder algemeen.” Deze issues kunnen komende week opgepakt worden.
+-   Stap 3: Doe een code review op de HTML uit de leertaak, en controleer of er inderdaad ook gebruik wordt gemaakt van `classes` uit de gedeelde stylesheet. Zo niet, maak dan een issue aan op de leertaak. Voorbeeld: “Je gebruikt voor het stylen van je alinea's nog geen CSS uit de gedeelde stylesheet; gebruik hiervoor `class="font-xl"`.”
+-   Stap 4: Bekijk het individueel gemaakte CSS-bestand uit de leertaak. Loop alle regels in de CSS door, en kijk of er styling in staat die ook al in de gedeelde stylesheet staat. Schiet issues in op de leertaak als dit het geval is. Voorbeeld: “Je eigen stylesheet gebruikt nog font styles, die ook al in de gedeelde stylesheet staan. Deze kun je weghalen, want je maakt gebruik van `class="font-xl"`.”
 
 #### Design review
 
