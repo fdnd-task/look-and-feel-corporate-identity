@@ -12,10 +12,10 @@ Jullie gaan elkaars werk één voor één reviewen binnen de groep. Gebruik éé
 
 #### Code review
 
-Controleer gezamenlijk of de stylesheet correct wordt gebruikt in de leertaak en schiet issues in waar nodig:
+Het doel van deze sprint is om in de HTML van de leertaak enkele `classes` uit de gedeelde styleguide te gebruiken, dus daar gaat deze code review over. Controleer gezamenlijk of de stylesheet correct wordt gebruikt in de leertaak en schiet issues in waar nodig:
 
--   Controleer of de gedeelde stylesheet correct is gelinkt in de repository, via een `<link>` tag naar de stylesheet op GitHub Pages van de gedeelde repository. Staat daar ook de meest recente versie van die stylesheet live? Pas dit aan als dat nog niet het geval is. Los eventuele bugs en conflicterende styling in je leertaak samen op. Het kan goed zijn dat jullie hiervoor _specifiekere selectors_ in de gedeelde stylesheet moeten maken. Maak hiervoor issues aan in de gedeelde repository, en verdeel deze binnen het team.
--   Het doel in de HTML van de leertaak is om de `classes` uit de gedeelde stylesheet te gebruiken. Doe een code review op de HTML, en controleer of er inderdaad gebruikt wordt gemaakt van CSS uit de gedeelde stylesheet.
+-   Controleer of de gedeelde stylesheet correct is gelinkt in de repository, via een `<link>` tag naar de stylesheet op GitHub Pages van de gedeelde repository. Staat daar ook de meest recente versie van die stylesheet live? Pas dit aan als dat nog niet het geval is. Los eventuele bugs en conflicterende styling in je leertaak samen op. Het kan goed zijn dat jullie hiervoor _specifiekere selectors_ in de gedeelde stylesheet moeten maken. Maak hiervoor issues aan in de _gedeelde repository_, en verdeel deze binnen het team. Voorbeeld: “De font styling op de `body` is te algemeen, en conflicteert met de styling van mijn eigen `header`. De selector voor font styling in onze gedeelde stylesheet moet minder algemeen.”
+-   Doe een code review op de HTML uit de leertaak, en controleer of er inderdaad gebruikt wordt gemaakt van CSS uit de gedeelde stylesheet. Zo niet, maak dan een issue aan op de leertaak. Voorbeeld: “Je gebruikt voor het stylen van je alinea's nog geen CSS uit de gedeelde stylesheet; gebruik hiervoor `class="font-xl"`, waardoor die `class` uit de gedeelde stylesheet gebruikt wordt.”
 -   Bekijk het individueel gemaakte CSS-bestand uit de leertaak. Loop alle regels in de CSS door, en kijk of er styling in staat die ook in de gedeelde stylesheet staat. Schiet issues in op de leertaak, bijvoorbeeld over:
     -   Komt de styling van alle kleuren uit de gedeelde stylesheet?
     -   Komt de styling voor typografie uit de gedeelde stylesheet?
