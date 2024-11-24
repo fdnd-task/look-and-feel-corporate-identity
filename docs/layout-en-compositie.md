@@ -29,11 +29,11 @@ Het Gestalt principes *grouping* bestaat uit een aantal wetten, zoals
 https://labelvier.nl/blog/ontwerpprincipes-in-de-praktijk-de-gestalt-principes/
 
 
-## Opdracht
+## Opdracht Gestalt wetten onderzoeken en presenteren (60 minuten)
 
 Met een groepje van 3 onderzoek je onderstaande Gestalt wetten.  Presenteer aan elkaar hoe je de wet kan gebruiken in je ontwerp. 
 
-Na de presentaties ga je de drie wetten toepassen op jouw ontwerp. Maak een issue aan met hoe het ontwerp van de pagina’s er nu uit zien en voeg verbeterde versies toe met uitleg. Voer de wijzigingen door in code en sluit het issue met een commit.
+Na de presentaties ga je de drie wetten toepassen op jouw ontwerp. Maak een issue aan met hoe de pagina’s er nu uit zien en voeg verbeterde versies toe met uitleg. Voer de wijzigingen door in code en sluit het issue met een commit.
 
 ### Law of Common Region
 
