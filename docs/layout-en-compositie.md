@@ -14,7 +14,9 @@ Door in je ontwerp rekening te houden met Gestalt principes zorg je ervoor dat i
 
 ## Gestalt psychologie
 
-De Gestalt psyhologie gaat over hoe de mens de wereld om zich heen waarneemt. Onze hersenen herkenen vormen en patronen, en ordenen zodoende alle informatie die we waarnemen. Een belangrijk principes voor web design is *grouping*, oftewel het groeperen van informatie.
+Gestalt psyhologie gaat over hoe de mens de wereld om zich heen waarneemt. 
+Onze hersenen herkenen vormen en patronen, en ordenen zodoende alle informatie die we waarnemen. 
+Een belangrijk Gestalt principes voor web design is *grouping*, oftewel het groeperen van informatie.
 
 Het Gestalt principes *grouping* bestaat uit een aantal wetten, zoals
 - Law of Proximity, de wet van de nabijheid. Als elementen dicht bij elkaar staan, vinden onze hersenen dat deze bij elkaar horen.
@@ -26,12 +28,13 @@ Het Gestalt principes *grouping* bestaat uit een aantal wetten, zoals
 *Ons brein heeft de neiging om alles wat we zien te organiseren in groepen of samenhangende vormen - Bron: [labelvier.nl](https://labelvier.nl/blog/ontwerpprincipes-in-de-praktijk-de-gestalt-principes/)*
 
 ### Bronnen
-https://labelvier.nl/blog/ontwerpprincipes-in-de-praktijk-de-gestalt-principes/
+[Ontwerpprincipes in de praktijk: de Gestalt-principes](https://labelvier.nl/blog/ontwerpprincipes-in-de-praktijk-de-gestalt-principes/)
 
 
 ## Opdracht Gestalt wetten onderzoeken en presenteren (60 minuten)
 
-Met een groepje van 3 onderzoek je onderstaande Gestalt wetten.  Presenteer aan elkaar hoe je de wet kan gebruiken in je ontwerp. 
+Met een groepje van 3 onderzoek je onderstaande Gestalt wetten. 
+Kies allemaal een van de wetten en presenteer aan elkaar hoe je de wet kan gebruiken in je ontwerp. 
 
 Na de presentaties ga je de drie wetten toepassen op jouw ontwerp. Maak een issue aan met hoe de pagina’s er nu uit zien en voeg verbeterde versies toe met uitleg. Voer de wijzigingen door in code en sluit het issue met een commit.
 
