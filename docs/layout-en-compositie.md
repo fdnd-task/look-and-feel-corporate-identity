@@ -6,7 +6,7 @@ Over Gestalt principes toepassen in je ontwerp.
 
 ### Aanpak
 
-In de sprint *Look & Feel* leer je hoe je een huisstijl kan toepassen. Je hebt met een team een styleguide gemaakt en nu ben je die aan het toepassen op meerdere pagina's voor de opdracht van de opdrachtgever.
+Je hebt met een team een styleguide gemaakt en nu ben je die aan het toepassen op meerdere pagina's voor de opdracht van de opdrachtgever.
 
 In deze workshop leer je hoe je de layout en compositie met behulp van het Gestalt principe *grouping* goed kan vormgeven. 
 Door in je ontwerp rekening te houden met Gestalt principes zorg je ervoor dat informatie duidelijk vorm gegeven is en de gebruiker de pagina goed begrijpt.
