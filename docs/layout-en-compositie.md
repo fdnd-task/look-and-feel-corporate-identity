@@ -34,7 +34,7 @@ Het Gestalt principes *grouping* bestaat uit een aantal wetten, zoals
 ## Opdracht Gestalt wetten onderzoeken en presenteren (60 minuten)
 
 Met een groepje van 3 onderzoek je onderstaande Gestalt wetten. 
-Kies allemaal een van de wetten en presenteer aan elkaar hoe je de wet kan gebruiken in je ontwerp. 
+Kies allemaal een van de wetten en presenteer aan elkaar hoe je de wet kan gebruikenvoor web design. 
 
 Na de presentaties ga je de drie wetten toepassen op jouw ontwerp. Maak een issue aan met hoe de pagina’s er nu uit zien en voeg verbeterde versies toe met uitleg. Voer de wijzigingen door in code en sluit het issue met een commit.
 
