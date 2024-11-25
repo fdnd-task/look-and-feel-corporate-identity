@@ -35,7 +35,7 @@ Het Gestalt principes *grouping* bestaat uit een aantal "wetten", zoals
 
 Met een groepje van 3 onderzoek je onderstaande Gestalt wetten. 
 Kies allemaal een van de wetten en schrijf op het whiteboard wie welke wet gaat onderzoeken. 
-Presenteer aan elkaar hoe je de wet kan gebruiken voor web design
+Presenteer aan elkaar hoe je de wet kan gebruiken voor web design.
 
 Na de presentaties ga je de drie wetten toepassen op jouw ontwerp. 
 Maak een issue aan met hoe de pagina’s er nu uit zien en voeg verbeterde versies toe met uitleg. 
@@ -46,7 +46,7 @@ Voer de wijzigingen door in code en sluit het issue met een commit.
 ![](law-of-common-region.png) 
 *Law of Common Region: Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.*
 
-Bekijk eerst *Law of Common Region* van de website Laws of UX. Lees daarna het artikel *The Principle of Common Region: Containers Create Groupings*. Maak schetsen en aantekeningen bij het artikel. Maak daarna een goed en een fout voorbeeld met de huisstijl-elemnenten van de opdrachtgever in Figma.
+Bekijk eerst *Law of Common Region* van de website Laws of UX. Lees daarna het artikel *The Principle of Common Region: Containers Create Groupings*. Maak schetsen en aantekeningen bij het artikel. Maak daarna een goed en een fout voorbeeld met de huisstijl-elementen van de opdrachtgever in Figma.
 
 #### Bronnen
  
@@ -59,7 +59,7 @@ Bekijk eerst *Law of Common Region* van de website Laws of UX. Lees daarna het a
 ![](law-of-proximity.png) 
 *Law of Proximity: Objects that are near, or proximate to each other, tend to be grouped together.*
 
-Bekijk eerst *Law of Proximity* van de website Laws of UX . Lees daaran de artikelen *The Principle of Common Region: Containers Create Groupings* en *Gestalt Principles of Design — Proximity*. Maak schetsen en aantekeningen bij de artikelen. Maak daarna een goed en een fout voorbeeld met de huisstijl-elemnenten van de opdrachtgever in Figma.
+Bekijk eerst *Law of Proximity* van de website Laws of UX . Lees daaran de artikelen *The Principle of Common Region: Containers Create Groupings* en *Gestalt Principles of Design — Proximity*. Maak schetsen en aantekeningen bij de artikelen. Maak daarna een goed en een fout voorbeeld met de huisstijl-elementen van de opdrachtgever in Figma.
 
 #### Bronnen
  
@@ -73,7 +73,7 @@ Bekijk eerst *Law of Proximity* van de website Laws of UX . Lees daaran de artik
 ![](law-of-similarity.png) 
 *Law of Similarity: The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.*
 
-Bekijk eerst *Law of Similarity* van de website Laws of UX . Lees daaran de artikelen *Similarity Principle in Visual Design* en *Gestalt Principles of Design — Similarity*. Maak schetsen en aantekeningen bij de artikelen. Maak daarna een goed en een fout voorbeeld met de huisstijl-elemnenten van de opdrachtgever in Figma.
+Bekijk eerst *Law of Similarity* van de website Laws of UX . Lees daaran de artikelen *Similarity Principle in Visual Design* en *Gestalt Principles of Design — Similarity*. Maak schetsen en aantekeningen bij de artikelen. Maak daarna een goed en een fout voorbeeld met de huisstijl-elementen van de opdrachtgever in Figma.
 
 #### Bronnen
  
