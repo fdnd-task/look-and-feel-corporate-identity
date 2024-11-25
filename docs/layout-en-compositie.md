@@ -15,7 +15,7 @@ Door in je ontwerp rekening te houden met Gestalt principes zorg je ervoor dat i
 ## Gestalt psychologie
 
 Gestalt psyhologie gaat over hoe de mens de wereld om zich heen waarneemt. 
-Onze hersenen herkenen vormen en patronen, en ordenen zodoende alle informatie die we waarnemen. 
+Onze hersenen herkenen vormen en patronen, en ordenen zodoende alle informatie die we zien (en horen en voelen). 
 Een belangrijk Gestalt principes voor web design is *grouping*, oftewel het groeperen van informatie.
 
 Het Gestalt principes *grouping* bestaat uit een aantal wetten, zoals
