@@ -14,7 +14,7 @@ Bespreek vandaag met een docent wat je donderdag gaat laten zien en wat je nog m
 
 ### Sprint Review voorbereiden
 
-Schrijf op het whiteboard je naam, de opdracht waar je aan werkt en wat je donderdag wil laten zien.
+Schrijf op het whiteboard je naam, de opdracht, wat je donderdag wil laten zien + een code vraag.
 
 Doorloop de workshop uit Sprint 2 voor een goede voorbereiding: https://github.com/fdnd-task/the-client-website/blob/main/docs/sprint-review.md
 
