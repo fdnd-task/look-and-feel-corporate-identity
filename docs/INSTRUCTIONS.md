@@ -27,6 +27,7 @@ Deze sprint worden verschillende workshops aangeboden:
 - [Formulieren](formulieren.md)
 - [Code/Design review](code-design-review.md)
 - [Layout en compositie](layout-en-compositie.md)
+- [Wrap up](wrap-up.md)
 
 
 ## Definition of done
