@@ -23,7 +23,7 @@ Deze sprint worden verschillende workshops aangeboden:
 - [Styleguide](styleguide.md)
 - [Stylesheet](stylesheet.md)
 - [Code/Design review stylesheet](code-design-review-stylesheet.md)
-- [Typografie en EM](typografie-en-em.md)
+- [Typografie en leesbaarheid](typografie-en-leesbaarheid.md)
 - [Formulieren](formulieren.md)
 - [Code/Design review](code-design-review.md)
 - [Layout en compositie](layout-en-compositie.md)
