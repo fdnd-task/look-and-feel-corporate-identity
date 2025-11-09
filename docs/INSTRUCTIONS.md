@@ -39,3 +39,20 @@ Deze opdracht is done als:
 - [ ] Je hebt met een team een styleguide ontworpen en gemaakt
 - [ ] Jouw website voldoet aan de huisstijl van de opdrachtgever
 - [ ] Jouw website maakt gebruik van de stylesheet uit de styleguide
+
+<!--
+Over methodisch handelen: feedback van opdrachtgever verwerken en nieuwe feedback halen
+
+Over samenwerken en de styleguide opleveren en gebruiken 
+Tijdens eerste code/design review samenwerking bespreken? En wat er nog moet gebeuren aan de styleguide?
+Samenwerkn in sprint 1: 
+- Je hebt met een team iteratief gewerkt
+- Je hebt het team-canvas ingevuld en toegevoegd aan een GitHub Issue van de repository waar jullie in samenwerken, en je hebt de samenwerking geëvalueerd in een kampvuursessie
+- Je hebt een breakdown schets gemaakt voor het responsive ontwerp en dit aan een GitHub Issue toegevoegd
+- Je hebt verschillende variaties in Figma gemaakt voor de layout en de visuele hiërarchie en dit aan een GitHub Issue toegevoegd
+- Je hebt het responsive ontwerp gerealiseerd met HTML, CSS en/of JS, je hebt code uitgelegd in comments, feedback gekregen in GitHub Issues en de feedback verwerkt
+
+Concrete DoD's over custom props, typo, layout? Misschien ook over CSS principes? 
+
+
+-->
