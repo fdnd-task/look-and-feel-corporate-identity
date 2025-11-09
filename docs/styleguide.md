@@ -95,15 +95,13 @@ Op basis van de styleguide gaan jullie een gezamenlijke stylesheet maken.
 Jullie gaan als team één stylesheet maken met de basis elementen van de huisstijl zoals de kleuren, typografie en formulier elementen. Later deze sprint ga je die misschien uitbreiden met meer gedeelde elementen.
 Zo zorg je ervoor dat op verschillende websites de huisstijl consistent wordt toegepast.
 
-#### De styleguide repository forken
+#### Samenwerking
 
 Slechts één teamlid forkt de repo [Look and Feel - Styleguide](https://github.com/fdnd-task/look-and-feel-styleguide) voor deze opdracht. Deze persoon voegt de teamleden toe als 'Collaborators': Ga naar de Settings van de repository, klik op Collaborators en voeg de GitHub accounts van de overige teamleden toe.
 
 Nu kunnen alle teamleden samenwerken op die repository, door deze allemaal te _Clonen_ (downloaden). Alle teamleden kunnen nu op hun eigen computer onderdelen van de website coderen, en hun aanpassingen en wijzigingen committen en pushen naar jullie gezamenlijke repository.
 
-#### Samenwerking
-
-Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, zullen jullie eerst goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de styleguide repo.
+Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, zullen jullie ook goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de styleguide repo.
 
 #### Instructies Stylesheet
 1. Hernoem het CSS file `styleguide.css` naar jouw opdrachtgever (bijvoorbeeld `styleguide-ad-connect.css`, `styleguide-buurtcampuskrant.css`, `styleguide-milledoni.css`, etc.). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
