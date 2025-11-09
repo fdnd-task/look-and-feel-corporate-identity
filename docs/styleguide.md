@@ -107,8 +107,8 @@ Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, 
 1. Hernoem het CSS file `styleguide.css` naar jullie opdrachtgever (bijvoorbeeld `styleguide-ad-connect.css`, `styleguide-buurtcampuskrant.css`, `styleguide-milledoni.css`, `styleguide-smarter-cities.css`, `styleguide-embassy-free-mind.css` of `styleguide-snappthis.css`). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
 2. Ontwerp en maak de CSS voor de verschillende huisstijl onderdelen (componenten). Overleg met het team hoe jullie de CSS classes gaan noemen. Schrijf de afspraken over bijvoorbeeld classnames en code conventies in de Readme van de styleguide repo.
 3. Zet de gezamenlijke stylesheet live door de repo te publiceren met GitHub Pages (en pas [de link in de styleguide](https://github.com/fdnd-task/look-and-feel-styleguide/blob/main/index.html#L16-L17) aan). 
-4. Gebruik de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt. Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
-5. Zorg dat jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen. 
+4. Gebruik de rest van deze sprint de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt (of gaat gebruiken). Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
+5. Zorg dat tijdens deze sprint jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen. 
 
 ### Bronnen
 
