@@ -96,9 +96,9 @@ Jullie gaan als team één stylesheet maken met de basis elementen van de huisst
 Zo zorg je ervoor dat op verschillende websites de huisstijl consistent wordt toegepast.
 
 #### Samenwerking
-Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is zullen jullie eerst goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de gezamenlijke repo van de stylesheet. 
+Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, zullen jullie eerst goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de gezamenlijke repo van de stylesheet. 
 
-#### Instructies Stylsheet
+#### Instructies Stylesheet
 1. Slechts één teamlid forkt de repo [Look and Feel - Styleguide](https://github.com/fdnd-task/look-and-feel-styleguide) voor deze opdracht. Deze persoon voegt de teamleden toe als 'Collaborators': Ga naar de settings van de repository, klik op collaborators en voeg de GitHub accounts van de overige teamleden toe.
 2. Nu kunnen alle teamleden samenwerken op die repository, door deze allemaal te clonen (downloaden). Alle teamleden kunnen nu op hun eigen computer onderdelen van de website coderen, en hun aanpassingen en wijzigingen committen en pushen naar jullie gezamenlijke repository. 
 3. Hernoem het CSS file `projectnaam.css` naar jouw opdrachtgever (`red-pers.css`, `dda.css`, etc.). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
