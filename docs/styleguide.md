@@ -104,12 +104,11 @@ Nu kunnen alle teamleden samenwerken op die repository, door deze allemaal te _C
 Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, zullen jullie ook goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de styleguide repo.
 
 #### Instructies Stylesheet
-1. Hernoem het CSS file `styleguide.css` naar jouw opdrachtgever (bijvoorbeeld `styleguide-ad-connect.css`, `styleguide-buurtcampuskrant.css`, `styleguide-milledoni.css`, etc.). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
+1. Hernoem het CSS file `styleguide.css` naar jullie opdrachtgever (bijvoorbeeld `styleguide-ad-connect.css`, `styleguide-buurtcampuskrant.css`, `styleguide-milledoni.css`, `styleguide-smarter-cities.css`, `styleguide-embassy-free-mind.css` of `styleguide-snappthis.css`). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
 2. Ontwerp en maak de CSS voor de verschillende huisstijl onderdelen (componenten). Overleg met het team hoe jullie de CSS classes gaan noemen. Schrijf de afspraken over bijvoorbeeld classnames en code conventies in de Readme van de styleguide repo.
-3. Beschrijf in de Readme alle onderdelen van de styleguide en hoe de code in de stylesheet kan worden toegepast.
-4. Zet de gezamenlijke stylesheet live door de repo te publiceren met GitHub Pages (en pas [de link in de styleguide](https://github.com/fdnd-task/look-and-feel-styleguide/blob/main/index.html#L16-L17) aan). 
-5. Gebruik de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt. Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
-6. Zorg dat jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen. 
+3. Zet de gezamenlijke stylesheet live door de repo te publiceren met GitHub Pages (en pas [de link in de styleguide](https://github.com/fdnd-task/look-and-feel-styleguide/blob/main/index.html#L16-L17) aan). 
+4. Gebruik de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt. Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
+5. Zorg dat jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen. 
 
 ### Bronnen
 
