@@ -10,7 +10,7 @@ Deze sprint ga je verder met de opdracht en ga je de feedback verwerken.
 
 Eerst ga je de opdracht van Sprint 4 plannen. Daarna ga je met de studenten die dezelfde opdrachtgever hebben de Sprint Review van Sprint 3 bespreken. 
 
-#### 1. Sprint 4 plannen
+## 1. Sprint 4 plannen
 
 Fork en Clone deze leertaak en koppel het Project Board uit de vorige sprint aan de nieuwe repository. Zet je issues in je nieuwe repo aan en voeg de issues uit de vorige sprint toe aan je nieuwe repo.
 
@@ -18,7 +18,7 @@ Bekijk het programma van Sprint 4 en neem de belangrijke momenten en opdrachten 
 
 Schrijf elke sprint nieuwe code, ook al blijven onderdelen van de website hetzelfde. Dit is even wat werk, maar zo leer je beter coderen en nettere code schrijven.
 
-#### 2. Sprint Review bespreken
+## 2. Sprint Review bespreken
 
 Bespreek met de studenten die dezelfde opdrachtgever hebben de Sprint Review van Sprint 3.
 Bekijk en bespreek het door jullie gemaakte werk.
