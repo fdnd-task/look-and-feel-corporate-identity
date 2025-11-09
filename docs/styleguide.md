@@ -95,18 +95,23 @@ Op basis van de styleguide gaan jullie een gezamenlijke stylesheet maken.
 Jullie gaan als team één stylesheet maken met de basis elementen van de huisstijl zoals de kleuren, typografie en formulier elementen. Later deze sprint ga je die misschien uitbreiden met meer gedeelde elementen.
 Zo zorg je ervoor dat op verschillende websites de huisstijl consistent wordt toegepast.
 
+#### De styleguide repository forken
+
+Slechts één teamlid forkt de repo [Look and Feel - Styleguide](https://github.com/fdnd-task/look-and-feel-styleguide) voor deze opdracht. Deze persoon voegt de teamleden toe als 'Collaborators': Ga naar de Settings van de repository, klik op Collaborators en voeg de GitHub accounts van de overige teamleden toe.
+
+Nu kunnen alle teamleden samenwerken op die repository, door deze allemaal te _Clonen_ (downloaden). Alle teamleden kunnen nu op hun eigen computer onderdelen van de website coderen, en hun aanpassingen en wijzigingen committen en pushen naar jullie gezamenlijke repository.
+
 #### Samenwerking
-Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, zullen jullie eerst goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de gezamenlijke repo van de stylesheet. 
+
+Omdat het maken en beheren van een gezamenlijke stylesheet een teamopdracht is, zullen jullie eerst goede afspraken moeten maken en bedenken hoe je hier samen aan gaat werken. Vul gezamenlijk een [teamcanvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md) in en bewaar deze in de styleguide repo.
 
 #### Instructies Stylesheet
-1. Slechts één teamlid forkt de repo [Look and Feel - Styleguide](https://github.com/fdnd-task/look-and-feel-styleguide) voor deze opdracht. Deze persoon voegt de teamleden toe als 'Collaborators': Ga naar de settings van de repository, klik op collaborators en voeg de GitHub accounts van de overige teamleden toe.
-2. Nu kunnen alle teamleden samenwerken op die repository, door deze allemaal te clonen (downloaden). Alle teamleden kunnen nu op hun eigen computer onderdelen van de website coderen, en hun aanpassingen en wijzigingen committen en pushen naar jullie gezamenlijke repository. 
-3. Hernoem het CSS file `projectnaam.css` naar jouw opdrachtgever (`red-pers.css`, `dda.css`, etc.). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
-4. Ontwerp en maak de CSS voor de huisstijl onderdelen, overleg met het team hoe jullie de CSS classes gaan noemen. Schrijf de afspraken over bijvoorbeeld classnames en code conventies op het whiteboard.
-5. Beschrijf in de Readme alle onderdelen van de styleguide en hoe de code in de stylesheet kan worden toegepast.
-6. Zet de gezamenlijke stylesheet live door de repo te publiceren met GitHub pages. 
-7. Gebruik de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt. Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
-8. Zorg dat jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen. 
+1. Hernoem het CSS file `styleguide.css` naar jouw opdrachtgever (bijvoorbeeld `styleguide-ad-connect.css`, `styleguide-buurtcampuskrant.css`, `styleguide-milledoni.css`, etc.). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
+2. Ontwerp en maak de CSS voor de verschillende huisstijl onderdelen (componenten). Overleg met het team hoe jullie de CSS classes gaan noemen. Schrijf de afspraken over bijvoorbeeld classnames en code conventies in de Readme van de styleguide repo.
+3. Beschrijf in de Readme alle onderdelen van de styleguide en hoe de code in de stylesheet kan worden toegepast.
+4. Zet de gezamenlijke stylesheet live door de repo te publiceren met GitHub Pages (en pas [de link in de styleguide](https://github.com/fdnd-task/look-and-feel-styleguide/blob/main/index.html#L16-L17) aan). 
+5. Gebruik de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt. Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
+6. Zorg dat jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen. 
 
 ### Bronnen
 
