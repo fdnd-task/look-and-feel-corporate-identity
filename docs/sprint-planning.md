@@ -14,7 +14,7 @@ Eerst ga je de opdracht van Sprint 4 plannen. Daarna ga je met de studenten die 
 
 Fork en Clone deze leertaak en koppel het Project Board uit de vorige sprint aan de nieuwe repository. Zet je issues in je nieuwe repo aan en voeg de issues uit de vorige sprint toe aan je nieuwe repo.
 
-Bekijk het programma van Sprint 4 en neem de belangrijke momenten en opdrachten uit het programma op in je Project Board, zoals de code/design reviews en de opdrachten die op het programma staan
+Bekijk het programma van Sprint 4 en neem de belangrijke momenten en opdrachten uit het programma op in je Project Board, zoals de code/design reviews en de opdrachten die op het programma staan. Zo kan je daar rekeningn mee houden in je planning en weet je ongeveer wat je kan verwachten deze sprint.
 
 Schrijf elke sprint nieuwe code, ook al blijven onderdelen van de website hetzelfde. Dit is even wat werk, maar zo leer je beter coderen en nettere code schrijven.
 
