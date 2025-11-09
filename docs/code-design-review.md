@@ -1,6 +1,6 @@
 # Look and Feel - Corporate Identity
 
-## Code/Design Review
+## Code/Design Review - Huisstijl toepassen
 
 Deze week heb je geleerd hoe je een gezamenlijke styleguide toepast op jouw eigen leertaak. Daarnaast hebben jullie meer geleerd over typografie en formulieren. 
 
