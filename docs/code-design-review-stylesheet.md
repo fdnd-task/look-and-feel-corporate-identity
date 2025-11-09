@@ -7,7 +7,7 @@ Deze week heb je geleerd hoe je een styleguide maakt voor een opdrachtgever. Een
 ### Aanpak
 Vandaag ga je aan de slag met een code-review op de repo 'Look and Feel - Styleguide' van 2 andere groepen. Vervolgens ga je met jouw groepje de ontvangen issues toewijzen (assignen) aan teamleden. Post de link van jullie Look and Feel Styleguide in de Teams channel 'Sprint 4' samen met jullie projectnaam. 
 
-#### Code-review Look and Feel - Styelguide
+## Code-review Look and Feel - Styelguide
 1. Bekijk in het schema hieronder welke twee groepen jullie gaan reviewen. 
 
 | Groep                         | Reviewt groepen                        | Ontvangt reviews van groepen                  |
@@ -43,9 +43,11 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
 
 ---
 
-#### Issues toewijzen
+## Issues toewijzen
 Klaar met de twee code reviews? Ga dan samen aan de slag met de issues die jullie hebben ontvangen.
 1. Bekijk samen met jullie mentor de issues die jullie zelf hebben ontvangen. Vraag waar nodig toelichting.
 2. Overleg met elkaar wie welke issue gaat oppakken. Assign vervolgens een issue aan het teamlid die deze taak gaat oppakken.
-3. Klaar? Je kunt nu individueel de issues die jou zijn toegewezen gaan oplossen. Sluit de issues wanneer opgelost met een duidelijke toelichting wat je hebt gedaan en de bijbehorende commit.  
+3. Bespreek ook hoe de samenwerking deze week is gegaan, komen jullie de gemaakte afspraken na? Kunnen jullie nog nieuwe afspraken maken voor de komende twee weken? Voeg dit toe aan het issue met jullie teamcanvas. 
+4. Klaar? Je kunt nu individueel de issues die jou zijn toegewezen gaan oplossen. Sluit de issues wanneer opgelost met een duidelijke toelichting wat je hebt gedaan en de bijbehorende commit.
+
 
