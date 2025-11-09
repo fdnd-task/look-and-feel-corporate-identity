@@ -43,7 +43,7 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
 
 ---
 
-## Issues toewijzen
+## Issues toewijzen en samenwerking bespreken
 Klaar met de twee code reviews? Ga dan samen aan de slag met de issues die jullie hebben ontvangen.
 1. Bekijk samen met jullie mentor de issues die jullie zelf hebben ontvangen. Vraag waar nodig toelichting.
 2. Overleg met elkaar wie welke issue gaat oppakken. Assign vervolgens een issue aan het teamlid die deze taak gaat oppakken.
