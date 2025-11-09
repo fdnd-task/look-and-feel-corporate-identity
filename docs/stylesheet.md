@@ -2,7 +2,7 @@
 
 ## Stylesheet
 
-Je hebt na de Sprint Planning in Figma een styleguide gemaakt en een gezamenlijke stylesheet met de huisstijl van de opdrachtgever. Slechts één teamlid heeft de repo 'Look and Feel - Styleguide' voor deze opdracht geforkt. Hierk komt de gezamenlijke stylesheet te staan die jullie allemaal gaan geruiken voor je eigen opdracht. 
+Je hebt na de Sprint Planning in Figma een styleguide gemaakt en een gezamenlijke stylesheet met de huisstijl van de opdrachtgever. Slechts één teamlid heeft de repo 'Look and Feel - Styleguide' voor deze opdracht geforkt. Hier staat de gezamenlijke stylesheet die jullie allemaal gaan gebruiken voor je eigen opdracht. 
 
 Vandaag ga je leren hoe je een gestructureerd CSS file kan maken met _classes_ en _Custom Properties_. 
 
