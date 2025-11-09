@@ -22,10 +22,10 @@ Deze sprint worden verschillende workshops aangeboden:
 - [Sprint planning](sprint-planning.md)
 - [Styleguide](styleguide.md)
 - [Stylesheet](stylesheet.md)
-- [Code/Design review stylesheet](code-design-review-stylesheet.md)
+- [Code/Design review - Stylesheet](code-design-review-stylesheet.md)
 - [Typografie en leesbaarheid](typografie-en-leesbaarheid.md)
 - [Formulieren](formulieren.md)
-- [Code/Design review](code-design-review.md)
+- [Code/Design review - Huisstijl toepassen](code-design-review-huisstijl-toepassen.md)
 - [Layout en compositie](layout-en-compositie.md)
 - [Wrap up](wrap-up.md)
 
