@@ -37,6 +37,6 @@ Deze opdracht is done als:
 - [ ] Je hebt met een team een styleguide ontworpen en een gedeelde stylesheet gemaakt
 - [ ] Je maakt gebruik van de gedeelde stylesheet, de CSS Cascade, Specificity en custom properties
 - [ ] Je hebt aantoonbaar gebruik gemaakt van Gestalt principes voor de layout en compositie
-- [ ] Je hebt een formulier met verschillnde formulie elmenten ontworpen en gemaakt
+- [ ] Je hebt een formulier met verschillende formulier elementen ontworpen en gemaakt
 - [ ] Jouw website voldoet aan de huisstijl van de opdrachtgever
 
