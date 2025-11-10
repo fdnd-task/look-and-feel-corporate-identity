@@ -90,7 +90,7 @@ Waarmee je bijvoorbeeld dit soort HTML kunt schrijven:
 <button class="button button-cancel">Annuleren</button>
 ```
 
-Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen:
+Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen, bijvoorbeeld:
 
 ```css
 /* Define cascading layers */
