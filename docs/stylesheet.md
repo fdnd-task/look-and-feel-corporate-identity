@@ -4,7 +4,7 @@
 
 Je hebt na de Sprint Planning in Figma een styleguide gemaakt en een gezamenlijke stylesheet met de huisstijl van de opdrachtgever. Slechts één teamlid heeft de repo 'Look and Feel - Styleguide' voor deze opdracht geforkt. Hier staat de gezamenlijke stylesheet die jullie allemaal gaan gebruiken voor je eigen opdracht. 
 
-Vandaag ga je leren hoe je een gestructureerd CSS file kan maken met _classes_ en _Custom Properties_. 
+Vandaag ga je leren hoe je een gestructureerd CSS file kan maken met _Cascading Layers (@layer)_,  _classes_ en _Custom Properties_. 
 
 ### Aanpak
 
@@ -90,6 +90,56 @@ Waarmee je bijvoorbeeld dit soort HTML kunt schrijven:
 <button class="button button-cancel">Annuleren</button>
 ```
 
+Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen:
+
+```css
+/* Define cascading layers */
+@layer reset, variables, base, layout, components, utilities;
+
+/* Reset layer: Lowest priority */
+@layer reset {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* Custom Properties layer: Generic CSS variables */
+@layer variables {
+  body {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --font-family: 'Arial', sans-serif;
+    --font-size-base: 1em;
+    --spacing-unit: 1rem;
+    --border-radius: 4px;
+  }
+}
+
+/* Base layer: for generic styles */
+@layer base {
+  
+}
+
+/* Layout layer: Layout-related styles go here */
+@layer layout {
+  
+}
+
+/* Components layer: Specific elements */
+@layer components {
+  
+}
+
+/* Utilities layer: High-priority overrides */
+@layer utilities {
+  
+}
+```
+
 ### Opdracht
 
 Jullie hebben een gezamenlijke stylesheet gemaakt met de styling voor de kleuren, typografie en formulier elementen. 
@@ -103,6 +153,7 @@ Schets het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig 
 
 - [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS Custom Properties Guide](https://css-tricks.com/a-complete-guide-to-custom-properties/)
+- [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
 
 <!-- - [Breaking CSS Custom Properties out of :root Might Be a Good Idea](https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/) -->
 
