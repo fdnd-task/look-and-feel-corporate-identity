@@ -38,5 +38,6 @@ Deze opdracht is done als:
 - [ ] Je maakt gebruik van de gedeelde stylesheet, de CSS Cascade, Specificity en custom properties
 - [ ] Je hebt aantoonbaar gebruik gemaakt van Gestalt principes voor de layout en compositie
 - [ ] Je hebt een formulier met verschillende formulier elementen ontworpen en gemaakt
+- [ ] Je hebt gestructureerd en iteratief aan de hand van issues de feedback van de opdrachtgever verwerkt en deze getest voor eindgebruikers
 - [ ] Jouw website voldoet aan de huisstijl van de opdrachtgever
 
