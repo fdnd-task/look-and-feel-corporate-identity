@@ -20,10 +20,10 @@ Schrijf elke sprint nieuwe code, ook al blijven onderdelen van de website hetzel
 
 ## 2. Sprint Review bespreken
 
-Bespreek met de studenten die dezelfde opdrachtgever hebben de Sprint Review van Sprint 3.
+Bespreek met de studenten die dezelfde opdrachtgever hebben én de mentor  de Sprint Review van Sprint 3.
 Bekijk en bespreek het door jullie gemaakte werk.
 Voeg de feedback van de opdrachtgever en nieuwe taken en ideeën toe aan je eigen project board.
 
-Teken daarna gezamenlijk op het whiteboard een sitemap van de hele website en wireframes van de pagina's die je wil gaan maken.
+Teken daarna gezamenlijk met de mentor op het whiteboard een sitemap van de hele website en wireframes van de pagina's die je wil gaan maken.
 
 Kijk bij de workshop [prototyping van sprint 2](https://github.com/fdnd-task/the-client-website/blob/main/docs/prototyping.md) hoe je een nette sitemap en wireframes schetst.
