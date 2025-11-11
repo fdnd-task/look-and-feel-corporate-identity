@@ -89,6 +89,25 @@ Waarmee je bijvoorbeeld dit soort HTML kunt schrijven:
 <button class="button button-ok">OK</button>
 <button class="button button-cancel">Annuleren</button>
 ```
+
+
+### Opdracht
+
+Jullie hebben een gezamenlijke stylesheet gemaakt met de styling voor de kleuren, typografie en formulier elementen. 
+
+Bekijk welke elementen in de gezamenlijke stylesheet geschreven kunnen worden met custom properties. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen. Als waardes vaker voorkomen, kun je custom properties gebruiken.
+
+Bespreek met een mentor de custom properties, classnames en code conventies die jullie hebben toegepast. 
+Schets het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig aanpassingen over bijvoorbeeld classnames en code conventies.
+
+### Bronnen
+
+- [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [CSS Custom Properties Guide](https://css-tricks.com/a-complete-guide-to-custom-properties/)
+- [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
+
+<!-- - [Breaking CSS Custom Properties out of :root Might Be a Good Idea](https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/) -->
+
 ## Cascading Layers (@layer)
 
 Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen, bijvoorbeeld:
@@ -142,23 +161,7 @@ Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg on
 ```
 
 ### Opdracht
-
-Jullie hebben een gezamenlijke stylesheet gemaakt met de styling voor de kleuren, typografie en formulier elementen. 
-
-Bekijk welke elementen in de gezamenlijke stylesheet geschreven kunnen worden met custom properties. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen. Als waardes vaker voorkomen, kun je custom properties gebruiken.
-
-Maak volgens, bovenstaand voorbeeld, cascading layers aan jullie gemeenschappelijke stylesheet en bepaal met elkaar welke CSS rules in welke layer komen te staan.
-
-Bespreek met een mentor de custom properties, classnames en code conventies die jullie hebben toegepast. 
-Schets het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig aanpassingen over bijvoorbeeld classnames en code conventies.
-
-### Bronnen
-
-- [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-- [CSS Custom Properties Guide](https://css-tricks.com/a-complete-guide-to-custom-properties/)
-- [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
-
-<!-- - [Breaking CSS Custom Properties out of :root Might Be a Good Idea](https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/) -->
+Maak volgens, [bovenstaand voorbeeld](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/stylesheet.md#cascading-layers), cascading layers aan jullie gemeenschappelijke stylesheet en bepaal met elkaar welke CSS rules in welke layer komen te staan.
 
 
 ### Opdracht Light & Dark mode (advanced)
