@@ -104,9 +104,19 @@ Schets het 'ontwerp' van jullie stylesheet op het whiteboard en noteer zo nodig 
 
 - [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS Custom Properties Guide](https://css-tricks.com/a-complete-guide-to-custom-properties/)
-- [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
 
 <!-- - [Breaking CSS Custom Properties out of :root Might Be a Good Idea](https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/) -->
+
+### Opdracht Light & Dark mode (advanced)
+Als je al ervaring hebt met custom properties kun je proberen een Light & Dark mode te maken. 
+Een Light & Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
+
+Implementeer een Dark Theme met custom properties die werkt op basis van de voorkeuren van de gebruiker. 
+Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
+
+Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/). 
+
+Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
 
 ## Cascading Layers (@layer)
 
@@ -163,17 +173,9 @@ Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg on
 ### Opdracht
 Maak volgens, [bovenstaand voorbeeld](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/stylesheet.md#cascading-layers), cascading layers aan jullie gemeenschappelijke stylesheet en bepaal met elkaar welke CSS rules in welke layer komen te staan.
 
+### Bronnen
 
-### Opdracht Light & Dark mode (advanced)
-Als je al ervaring hebt met custom properties kun je proberen een Light & Dark mode te maken. 
-Een Light & Dark mode op de website helpt gebruikers om de website beter te kunnen bekijken in verschillende omstandigheden.
-
-Implementeer een Dark Theme met custom properties die werkt op basis van de voorkeuren van de gebruiker. 
-Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
-
-Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/). 
-
-Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
+- [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
 
 
 ## CSS inladen
