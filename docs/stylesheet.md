@@ -89,6 +89,7 @@ Waarmee je bijvoorbeeld dit soort HTML kunt schrijven:
 <button class="button button-ok">OK</button>
 <button class="button button-cancel">Annuleren</button>
 ```
+## Cascading Layers (@layer)
 
 Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen, bijvoorbeeld:
 
