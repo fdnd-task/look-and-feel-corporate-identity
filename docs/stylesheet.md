@@ -118,66 +118,6 @@ Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-cs
 
 Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
 
-## Cascading Layers (advanced)
-
-Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen, bijvoorbeeld:
-
-```css
-/* Define cascading layers */
-@layer reset, variables, base, layout, components, utilities;
-
-/* Reset layer: Lowest priority */
-@layer reset {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-}
-
-/* Custom Properties layer: Generic CSS variables */
-@layer variables {
-  body {
-    --primary-color: #007bff;
-    --secondary-color: #6c757d;
-    --background-color: #f9f9f9;
-    --text-color: #333;
-    --font-family: 'Arial', sans-serif;
-    --font-size-base: 1em;
-    --spacing-unit: 1rem;
-    --border-radius: 4px;
-  }
-}
-
-/* Base layer: for generic styles */
-@layer base {
-  
-}
-
-/* Layout layer: Layout-related styles go here */
-@layer layout {
-  
-}
-
-/* Components layer: Specific elements */
-@layer components {
-  
-}
-
-/* Utilities layer: High-priority overrides */
-@layer utilities {
-  
-}
-```
-
-### Opdracht
-Maak volgens, [bovenstaand voorbeeld](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/stylesheet.md#cascading-layers), cascading layers aan jullie gemeenschappelijke stylesheet en bepaal met elkaar welke CSS rules in welke layer komen te staan.
-
-### Bronnen
-
-- [Cascade Layers Guide](https://css-tricks.com/css-cascade-layers/)
-
-
 ## CSS inladen
 Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. 
 Voeg deze toe aan de `<head>` van je html document. 
@@ -242,6 +182,8 @@ Wordt de kleur nu rood?
 ```
 De `<li>` blijft zwart want de selector `ul#web-technologies li` is specifieker dan de class selector `.favorite`. 
 De _weight_ van de class selector is `0 0 1 0`, de _weight_ van de gecombineerde selector is `0 1 0 2`. 10 < 102 ...
+
+💪🏼 in de voorbeeld stylesheet, die jullie geforkt hebben, staat `@layer`, wist je dat je hiermee invloed kunnen uitoefenen op specificty van selectoren? Lees hier meer: [Cascading layers]()
 
 
 ### Opdracht
