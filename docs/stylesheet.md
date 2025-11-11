@@ -118,7 +118,7 @@ Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-cs
 
 Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
 
-## Cascading Layers (@layer)
+## Cascading Layers (advanced)
 
 Naarmate je meer HTML, en daarmee meer CSS toevoegt, kan de CSS structuur erg onoverzichtelijk worden, hierbij kunnen CSS Cascade Layers helpen, bijvoorbeeld:
 
