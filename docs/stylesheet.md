@@ -155,8 +155,8 @@ Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld C
 
 ## CSS inladen
 Nu je met je team een [gezamenlijke stylesheet hebt gemaakt](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md#instructies-stylesheet) (en deze live hebt gezet via GitHub Pages), kan je deze gebruiken in jouw eigen project. 
-Voeg deze toe aan de `<head>` van je html document (en pas de juiste link aan). 
-Dan heb je dus twee CSS files gelinkt, dat ziet er dan zo uit.
+Voeg deze toe aan de `<head>` van je eigen HTML document in jouw project (en pas de juiste link aan). 
+Dan heb je dus twee CSS files gelinkt, wat er zo uit ziet:
 
 ```html
 <link rel="stylesheet" href="https://de-forker-uit-jullie-team.github.io/look-and-feel-styleguide/styleguide.css">
