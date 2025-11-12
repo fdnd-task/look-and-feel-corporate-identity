@@ -148,7 +148,7 @@ Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld C
 
 Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/). 
 
-Voor nog meer tips en tricks kun je het artikel [Dark Mode in 3 Lines of CSS and Other Adventures](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj) lezen. 
+Voor nog meer tips en tricks kun je het artikel [CSS color-scheme-dependent colors with light-dark()](https://web.dev/articles/light-dark) lezen. 
 
 ## CSS inladen
 Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. 
