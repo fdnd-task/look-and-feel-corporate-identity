@@ -93,16 +93,16 @@ Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je ku
 ```css
 .button {
   --kleur: 200;
-  --lightheid: 30%;
-  background: hsl(var(--kleur) 100% var(--lightheid));
+  --lichtheid: 30%;
+  background: hsl(var(--kleur) 100% var(--lichtheid));
   color: #fff;
 
   &:hover, &:focus {
-    --lightheid: 25%;
+    --lichtheid: 25%;
   }
 
   &:active {
-    --lightheid: 20%;
+    --lichtheid: 20%;
   }
 }
 
