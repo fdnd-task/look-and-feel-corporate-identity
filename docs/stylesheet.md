@@ -146,11 +146,9 @@ Een Light & Dark mode op de website helpt gebruikers om de website beter te kunn
 Implementeer een Dark Theme met custom properties die werkt op basis van de voorkeuren van de gebruiker. 
 Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld CSS values voor kleuren te voorkomen. 
 
-Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/). 
-
-Voor nog meer tips en tricks kun je het artikel [CSS color-scheme-dependent colors with light-dark()](https://web.dev/articles/light-dark) lezen.
-
-En Sanne heeft een voorbeeld op CodePen gemaakt: https://codepen.io/shooft/pen/wBGajQZ
+- Gebruik het artikel [Dark Mode in CSS](https://css-tricks.com/dark-modes-with-css/)
+- Voor nog meer tips en tricks kun je het artikel [CSS color-scheme-dependent colors with light-dark()](https://web.dev/articles/light-dark) lezen
+- CodePen van Sanne:: https://codepen.io/shooft/pen/wBGajQZ
 
 ## CSS inladen
 Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. 
