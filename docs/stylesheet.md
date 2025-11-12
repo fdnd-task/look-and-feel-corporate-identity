@@ -55,30 +55,61 @@ Sterker nog, je kunt de waardes dynamisch aanpassen, en op die manier slimme sty
 }
 ```
 
-Veel tutorials gebruiken de `:root` selector (het hoogste element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ in CSS zijn die properties in de hele onderliggende DOM bekend, maar custom properties zijn dus veel krachtiger dan alleen 'globale variabelen'. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken:
+Veel tutorials gebruiken de `:root` selector (het _hoogste_ element in de DOM; het `<html>` element bij een webpagina, het `<svg>` element bij een SVG bestand) om custom properties op te zetten. Door _inheritance_ in CSS zijn die properties in de hele onderliggende DOM bekend:
+
+```css
+:root {
+  --primary-color: red;
+  --secondary-color: blue;
+}
+h1 {
+  color: var(--primary-color);
+}
+p {
+  background-color: var(--primary-color);
+}
+```
+
+Dit is hetzelfde als:
+
+```css
+html {
+  --primary-color: red;
+  --secondary-color: blue;
+}
+h1 {
+  color: var(--primary-color);
+}
+p {
+  background-color: var(--primary-color);
+}
+```
+
+Voor “globale variabelen”, die overal beschikbaar moeten zijn, is dit een handige manier.
+
+Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken. En je kunt de properties ook aanpassen:
 
 ```css
 .button {
-  --hue: 200;
-  --lightness: 30%;
-  background: hsl(var(--hue) 100% var(--lightness));
+  --kleur: 200;
+  --lightheid: 30%;
+  background: hsl(var(--kleur) 100% var(--lightheid));
   color: #fff;
 
   &:hover, &:focus {
-    --lightness: 25%;
+    --lightheid: 25%;
   }
 
   &:active {
-    --lightness: 20%;
+    --lightheid: 20%;
   }
 }
 
 .button-ok {
-  --hue: 100;
+  --kleur: 100;
 }
-
 .button-cancel {
-  --hue: 20;
+  --kleur: 20;
 }
 ```
 
