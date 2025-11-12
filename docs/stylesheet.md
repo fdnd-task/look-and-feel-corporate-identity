@@ -159,10 +159,9 @@ Voeg deze toe aan de `<head>` van je eigen HTML document in jouw project (en pas
 Dan heb je dus twee CSS files gelinkt, wat er zo uit ziet:
 
 ```html
-<link rel="stylesheet" href="https://de-forker-uit-jullie-team.github.io/look-and-feel-styleguide/styleguide.css">
+<link rel="stylesheet" href="https://githubnaam-van-de-forker-uit-jullie-team.github.io/look-and-feel-styleguide/styleguide.css">
 <link rel="stylesheet" href="style.css">
 ```
-
 
 ### CSS principes
 Maar welke styling wordt nu uitgevoerd als je `classes` gebruikt uit de huisstijl en uit je eigen stylesheet?
