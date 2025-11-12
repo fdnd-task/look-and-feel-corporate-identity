@@ -32,7 +32,7 @@ Onderzoek op 3 verschillende websites hoe CSS is toegepast voor een `h2` en `but
 
 
 ## Custom Properties
-Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` in bewaren, en die op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is fijn voor de developers én de gebruikers.
+Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` in bewaren, en die op meerdere plekken gebruiken. Hiermee zorg je voor _DRY code_, wat de code beter leesbaar, makkelijker onderhoudbaar en sneller maakt. Dit is vooral fijn voor developers.
 
 ```css
 .card {
@@ -42,7 +42,7 @@ Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` 
 }
 ```
 
-Sterker nog, je kunt de waardes dynamisch aanpassen, en op die manier slimme styling schrijven, zoals:
+Sterker nog, je kunt de values dynamisch aanpassen, en op die manier slimme styling schrijven, zoals:
 
 ```css
 .button {
@@ -85,7 +85,7 @@ p {
 }
 ```
 
-Voor “globale variabelen”, die overal beschikbaar moeten zijn, is dit een handige manier van custom properties gebruiken.
+De `:root` selector is dus 'gewoon' de `html` selector. Voor “globale variabelen”, die overal in je DOM beschikbaar moeten zijn, is dit een handige manier van custom properties gebruiken.
 
 Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken, wat handig is in een styleguide:
 
