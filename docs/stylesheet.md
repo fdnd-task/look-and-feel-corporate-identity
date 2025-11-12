@@ -224,14 +224,14 @@ De _weight_ van de class selector is `0 0 1 0`, de _weight_ van de gecombineerde
 ### Opdracht
 Voor deze opdracht ga je spelen met de CSS principes _Cascade_ en _Specificity_ om te leren hoe dat werkt. 
 Je gaat 4 experimenten doen. 
-Beantwoord de bijhorende vragen in je Learning log en probeer uit te leggen wat er gebeurt. 
+Beantwoord de bijhorende vragen in je Learning Journal en probeer uit te leggen wat er gebeurt. 
 
 Open je code editor en maak een blanco HTML pagina, noem het file `specificity.html`, en sla deze op in jouw i-love-web repo. 
 Maak een leeg CSS file, noem het `specificity.css`, sla het op in dezelfde map als het HTML file. 
 Voeg de gemeenschappelijke stylesheet toe in de `<head>` van het HTML file en daaronder het lege CSS file. 
 Dat ziet er dan zo uit in de HTML: 
 ```html
-<link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
+<link rel="stylesheet" href="https://de-forker-uit-jullie-team.github.io/look-and-feel-styleguide/styleguide.css">
 <link rel="stylesheet" href="specificity.css">
 ```
 
