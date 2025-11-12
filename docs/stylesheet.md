@@ -88,7 +88,17 @@ p {
 
 De `:root` selector is dus 'gewoon' de `html` selector. Voor “globale variabelen”, die overal in je DOM beschikbaar moeten zijn, is dit een handige manier van custom properties gebruiken.
 
-Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken, wat handig is in een styleguide:
+Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken, wat handig is in een styleguide.
+
+Met bijvoorbeeld de volgende HTML:
+
+```html
+<button class="button">Knop</button>
+<button class="button button-ok">OK</button>
+<button class="button button-cancel">Annuleren</button>
+```
+
+En deze CSS:
 
 ```css
 .button {
@@ -114,14 +124,7 @@ Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je ku
 }
 ```
 
-Waarmee je bijvoorbeeld dit soort HTML kunt schrijven:
-
-```html
-<button class="button">Knop</button>
-<button class="button button-ok">OK</button>
-<button class="button button-cancel">Annuleren</button>
-```
-
+Speel hier maar eens mee in bijvoorbeeld een CodePen of je Learning Journal.
 
 ### Opdracht
 
