@@ -15,10 +15,11 @@ Eerst ga je analyseren wat voor CSS strategie grote websites gebruiken. Daarna g
 Naarmate er meer CSS in je project komt, bijvoorbeeld als je gaat samenwerken aan een project, wordt het steeds belangrijker om een CSS strategie (met elkaar) te bepalen.
 
 ### Opdracht
-Onderzoek op 3 verschillende websites hoe CSS is toegepast voor een `h2` en `button` element. 
 
 ![](CSS-strategie.png)
 *Met behulp van de Devtools kun je onderzoeken wat de CSS strategie van een website is.*
+
+Onderzoek op 3 verschillende websites hoe CSS is toegepast voor een `h2` en `button` element, met onderstaande vragen.
 
 #### Beantwoord deze vragen op het whiteboard:
 - Welke element-selectoren en class-selectoren zijn gebruikt?
