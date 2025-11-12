@@ -183,7 +183,7 @@ Wordt de kleur nu rood?
 De `<li>` blijft zwart want de selector `ul#web-technologies li` is specifieker dan de class selector `.favorite`. 
 De _weight_ van de class selector is `0 0 1 0`, de _weight_ van de gecombineerde selector is `0 1 0 2`. 10 < 102 ...
 
-💪🏼 in de voorbeeld stylesheet, die jullie geforkt hebben, staat `@layer`, wist je dat je hiermee invloed kunnen uitoefenen op specificity van selectoren? Lees hier meer over Caascadinf Layers: [Cascading layers](https://css-tricks.com/css-cascade-layers/).
+💪🏼 In de voorbeeld stylesheet, die jullie geforkt hebben, staat `@layer`. Wist je dat je hiermee invloed kunt uitoefenen op de volgorde van de cascade? [Lees meer over Cascade Layers](https://css-tricks.com/css-cascade-layers/).
 
 
 ### Opdracht
