@@ -154,12 +154,12 @@ Custom properties kunnen hierbij helpen om onnodige herhaling van bijvoorbeeld C
 - CodePen voorbeeld van Sanne: https://codepen.io/shooft/pen/wBGajQZ
 
 ## CSS inladen
-Nu je met je team een gezamenlijke stylesheet hebt gemaakt, kan je deze gebruiken in jouw eigen project. 
-Voeg deze toe aan de `<head>` van je html document. 
-Dan heb je dus twee CSS files gelinkt, dat ziet er dan zo uit. 
+Nu je met je team een [gezamenlijke stylesheet hebt gemaakt](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md#instructies-stylesheet) (en deze live hebt gezet via GitHub Pages), kan je deze gebruiken in jouw eigen project. 
+Voeg deze toe aan de `<head>` van je html document (en pas de juiste link aan). 
+Dan heb je dus twee CSS files gelinkt, dat ziet er dan zo uit.
 
 ```html
-<link rel="stylesheet" href="url-gezamenlijke-stylesheet.css">
+<link rel="stylesheet" href="https://de-forker-uit-jullie-team.github.io/look-and-feel-styleguide/styleguide.css">
 <link rel="stylesheet" href="style.css">
 ```
 
