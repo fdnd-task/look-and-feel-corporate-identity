@@ -36,9 +36,9 @@ Met Custom Properties kun je zelf een CSS `property` bedenken, daar een `value` 
 
 ```css
 .card {
-  --spacing: 1.2rem;
-  padding: var(--spacing);
-  margin: var(--spacing);
+  --ruimte: 1.2rem;
+  padding: var(--ruimte);
+  margin: var(--ruimte);
 }
 ```
 
@@ -87,7 +87,7 @@ p {
 
 Voor “globale variabelen”, die overal beschikbaar moeten zijn, is dit een handige manier van custom properties gebruiken.
 
-Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken. En je kunt de properties ook aanpassen:
+Maar custom properties zijn veel krachtiger dan alleen globale variabelen. Je kunt hiermee snel verschillende stijlen voor bijvoorbeeld een knop maken, wat handig is in een styleguide:
 
 ```css
 .button {
