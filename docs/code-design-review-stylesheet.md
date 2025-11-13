@@ -21,13 +21,13 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
    
    - **Consistente naamgeving**: Is de naamgeving consisitent? Kijk of er een consistente schrijfwijze is gekozen (zoals kebab-case voor CSS-variabelen of selectors, bijvoorbeeld `--font-size-large`).
    
-   - **Naamgeving en begrijpelijkheid**: Is de naamgeving van variabelen en classes gemakkelijk te volgen? Hoe hebben jullie dit als team gedaan? Wat nemen jullie mee naar het eigen project? En wat kan het team die jullie reviewen daar nog in verbeteren? Maak daar een issue voor aan.
+   - **Naamgeving en begrijpelijkheid**: Is de naamgeving van variabelen en classes gemakkelijk te volgen? Hoe hebben jullie dit als team gedaan? Wat nemen jullie mee naar het eigen project? En wat kan het team dat jullie reviewen daar nog in verbeteren? Maak daar een issue voor aan.
 
    - **Volledigheid van de stylesheet**: Bevat de stylesheet voldoende elementen en states voor een volledige implementatie? Let op states zoals hover, active en focus voor links en knoppen, en controleer of formulieren (inputvelden, foutmeldingen) ook zijn opgenomen. Pak waar nodig het Figma bestand erbij om te kijken of de belangrijkste elementen terug te vinden zijn in de styleguide. 
 
-   - **Gebruik van custom properties**: Worden custom properties juist ingezet? Beschrijven de CSS custom properties waar de kleur voor gebruikt wordt, in plaats van welke kleur het is? En worden de custom properties op de juiste plaats toegepast? Bijvoorbeeld, worden custom properties op de :root gedefinieerd? Is dat een bewuste keuze? Of zou het ook op de body kunnen?
+   - **Gebruik van custom properties**: Worden custom properties juist ingezet? Beschrijven de CSS custom properties waar de kleur voor gebruikt wordt, in plaats van welke kleur het is? En worden de custom properties op de juiste plaats toegepast? Bijvoorbeeld, worden custom properties op de `:root` gedefinieerd? Is dat een bewuste keuze? Of zou het ook op de body kunnen?
 
-   - **Herhaling van code**: Bekijk of er onnodige herhaling van code is. Als er vaak dezelfde stijlen worden herhaald, kijk dan of dit simpeler kan door variabelen of mixins te gebruiken.
+   - **Herhaling van code**: Bekijk of er onnodige herhaling van code is. Als vaak dezelfde stijlen worden herhaald, kijk dan of dit simpeler kan door custom properties of herbruikbare classes te gebruiken.
 
 
 ---
