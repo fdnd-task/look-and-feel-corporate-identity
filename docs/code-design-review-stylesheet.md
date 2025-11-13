@@ -12,7 +12,7 @@ Vandaag ga je aan de slag met een code-review op de repo 'Look and Feel - Styleg
 
 _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit met de gehele groep. Bepaal met elkaar wie de issues schrijft._
 
-2. Pak samen met jullie mentor de repo erbij van de groep die je gaat reviewen. Bekijk met elkaar de `index.html` en de `stylesguide.[teamnaam].css`. 
+2. Pak samen met jullie mentor de repo erbij van de groep die je gaat reviewen. Bekijk met elkaar de `index.html` en de `styleguide-[teamnaam].css`. 
    - Controleer of de juiste link naar de stylesheet gedeeld is. Is het duidelijk hoe je de stylesheet kunt implementeren in je eigen project? 
 
 3. **Code Review Checklist**: Doorloop de volgende vragen om de kwaliteit van de stylesheet te beoordelen. Schiet waar nodig een issue in.
