@@ -8,23 +8,12 @@ Deze week heb je geleerd hoe je een styleguide maakt voor een opdrachtgever. Een
 Vandaag ga je aan de slag met een code-review op de repo 'Look and Feel - Styleguide' van 2 andere groepen. Vervolgens ga je met jouw groepje de ontvangen issues toewijzen (assignen) aan teamleden. Post de link van jullie Look and Feel Styleguide in de Teams channel 'Sprint 4' samen met jullie projectnaam. 
 
 ## Code-review Look and Feel - Styelguide
-1. Bekijk in het schema hieronder welke twee groepen jullie gaan reviewen. 
-
-| Groep                         | Reviewt groepen                        | Ontvangt reviews van groepen                  |
-|-------------------------------|----------------------------------------|-----------------------------------------------|
-| **Drop & Heal**               | Tumi Mundo, Mediahuis                 | Mediahuis, Online Collection Qatar Museums  |
-| **Tumi Mundo**                | Oncology Collaboration Platform, Bieb in Bloei | Drop&Heal, Bieb in Bloei      |
-| **Oncology Collaboration Platform** | Red Pers Website, Online Collection Qatar Museums | Tumi Mundo            |
-| **Red Pers Website**          | Mediahuis, DDA Vacature Site          | Online Collection Qatar Museums, Mediahuis, DDA   |
-| **Mediahuis**                 | Drop & Heal, Bieb in Bloei            | Drop&Heal, Red Pers |
-| **Bieb in Bloei**             | DDA Vacature Site, Tumi Mundo         | Tumi Mundo, Mediahuis, DDA       |
-| **Online Collection Qatar Museums** | Drop & Heal, DDA Vacature Site     | Oncology Collaboration Platform    |
-| **DDA Vacature Site**         | Bieb in Bloei, Red Pers Website       | Online Collection Qatar Museums, Red Pers Website, Bieb in Bloei |
+1. Bekijk in Teams welke groepjes er mee doen voor een code review op de repo van de Look and Feel Styleguide. Kies twee teams uit die je samen gaat reviewen. Voeg een emoji toe bij het uitgekozen team. Zorg ervoor dat elk team minimaal één review ontvangt. 
 
 _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit met de gehele groep. Bepaal met elkaar wie de issues schrijft._
 
-2. Pak samen met jullie mentor de repo erbij van de groep die je gaat reviewen. Lees met elkaar de README. 
-   - **Feedback op README**: Controleer of de README voldoende informatie bevat om te begrijpen hoe de stylesheet werkt. Is het duidelijk hoe je de code kunt implementeren? Zou je zelfstandig hiermee kunnen werken? Schrijf je feedback in het “Feedback op README” issue.
+2. Pak samen met jullie mentor de repo erbij van de groep die je gaat reviewen. Bekijk met elkaar de `index.html` en de `stylesguide.[teamnaam].css`. 
+   - **Gebruik gedeelde stylesheet in jouw eigen project**: Controleer of de juiste link naar de stylesheet gedeeld is. Is het duidelijk hoe je de stylesheet kunt implementeren in je eigen project? 
 
 3. **Code Review Checklist**: Doorloop de volgende vragen om de kwaliteit van de stylesheet te beoordelen. Schiet waar nodig een issue in.
 
@@ -34,9 +23,9 @@ _Herhaal onderstaande checklist voor twee groepen. Je voert deze code review uit
    
    - **Naamgeving en begrijpelijkheid**: Is de naamgeving van variabelen en classes gemakkelijk te volgen? 
 
-   - **Volledigheid van de stylesheet**: Bevat de stylesheet voldoende elementen en states voor een volledige implementatie? Let op states zoals hover, active en focus voor links en knoppen, en controleer of formulieren (inputvelden, foutmeldingen) ook zijn opgenomen.
+   - **Volledigheid van de stylesheet**: Bevat de stylesheet voldoende elementen en states voor een volledige implementatie? Let op states zoals hover, active en focus voor links en knoppen, en controleer of formulieren (inputvelden, foutmeldingen) ook zijn opgenomen. 
 
-   - **Custom properties op juiste element**: Worden de custom properties op de juiste plaats toegepast? Bijvoorbeeld, worden custom properties op de :root gedefinieerd? Is dat een bewuste keuze? Of zou het ook op de body kunnen?
+   - **Gebruik van custom properties**: Beschrijven de CSS custom properties waar de kleur voor gebruikt wordt, in plaats van welke kleur het is? En worden de custom properties op de juiste plaats toegepast? Bijvoorbeeld, worden custom properties op de :root gedefinieerd? Is dat een bewuste keuze? Of zou het ook op de body kunnen?
 
    - **Herhaling van code**: Bekijk of er onnodige herhaling van code is. Als er vaak dezelfde stijlen worden herhaald, kijk dan of dit simpeler kan door variabelen of mixins te gebruiken.
 
