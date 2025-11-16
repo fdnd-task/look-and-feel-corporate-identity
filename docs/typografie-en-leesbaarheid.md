@@ -103,6 +103,49 @@ Hou in je Learning Journal bij wat je hebt onderzocht en uitgeprobeerd.
 - [Wrapping and Breaking text - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text)
 -->
 
+
+## Hoe lezen we?
+
+Lezen is een complex process. Als we lezen, hebben we intuïtief de indruk dat onze ogen over de regels glijden. Maar dat is niet het geval.  Onze ogen maken sprongetjes die over de tekst gaan. 
+
+Er zijn drie soorten oogsprongen, of _saccades_: 
+- Sprongen voorwaarts over een aantal letters of woorden
+- De regelsprongen, grote sprongen van het eind van de regel naar het begin van de volgende
+- Terugsprongetjes, die zomaar in de regel plaatsvinden, alsof het oog even terug wil kijken naar wat het net tevoren ook al gezien heeft, deze terugsprongen doen we in het algemeen onbewust. 
+
+De oogsprongen vragen om duidelijke fixatiepunten, om een goede structuur van de tekst. 
+Fixatiepunten zijn de letters, woorden, regels, alinea’s en koppen van een tekst. 
+Fixatiepunten vereisen goede letterafstanden, woordspaties, regelbegin, en -lengte, alinea's, en plaatsing en indeling van koppen. 
+
+<!-- Vrij naar Ton Bolder, uit Typografie, uitgangspunten, richtlijnen en techniek, blz 127 & 128 -->
+
+### Oogsprongem over letters of woorden
+As our eyes move across the text, our minds gobble up the type’s texture—the sum of the positive and negative spaces inside and around letters and words.
+
+Reading isn’t linear. Instead, our eyes perform a series of back and forth movements called saccades, or lightning-fast hops across a line of text. Sometimes it’s a big hop; sometimes it’s a small hop.
+
+![](leesbaarheid-oogsprongen.png)<br>
+
+
+### Fixaties 
+Between saccades, our eyes stop for a fraction of a second in what’s called a fixation (fig 1.3).
+During this brief pause we see a couple of characters clearly, and the rest of the text blurs out like ripples in a pond.
+
+![](leesbaarheid-fixatiepunten.png)<br>
+
+
+### Regelsprongen
+De ogen springen van het eind van een regel naar het begin van de volgende. 
+
+![](leesbaarheid-regelsprongen.png)<br>
+
+
+### Bronnen 
+[How We Read by Jason Santa Maria](https://alistapart.com/article/how-we-read/)
+
+
+
+
 ## Font-family en lettertypes
 
 Met de *property* `font-family` kan je de browser 'vertellen' welke fonts je wilt gebruiken, via een _font stack_. Dat ziet er zo uit: 
