@@ -120,22 +120,19 @@ Fixatiepunten vereisen goede letterafstanden, woordspaties, regelbegin, en -leng
 <!-- Vrij naar Ton Bolder, uit Typografie, uitgangspunten, richtlijnen en techniek, blz 127 & 128 -->
 
 ### Oogsprongem over letters of woorden
-As our eyes move across the text, our minds gobble up the type’s texture—the sum of the positive and negative spaces inside and around letters and words.
-
-Reading isn’t linear. Instead, our eyes perform a series of back and forth movements called saccades, or lightning-fast hops across a line of text. Sometimes it’s a big hop; sometimes it’s a small hop.
+Terwijl onze ogen over de tekst bewegen, maken onze ogen een reeks heen en weer bewegingen die saccades worden genoemd, of sprongetjes over een regel tekst. Soms is het een grote sprongetje, soms is het een klein sprongetje.
 
 ![](leesbaarheid-oogsprongen.png)<br>
 
 
 ### Fixaties 
-Between saccades, our eyes stop for a fraction of a second in what’s called a fixation (fig 1.3).
-During this brief pause we see a couple of characters clearly, and the rest of the text blurs out like ripples in a pond.
+Tussen oogsprongen stoppen onze ogen voor een fractie van een seconde in wat een fixatie wordt genoemd. Tijdens deze korte pauze zien we een paar tekens duidelijk, terwijl de rest van de tekst vervaagt.
 
 ![](leesbaarheid-fixatiepunten.png)<br>
 
 
 ### Regelsprongen
-De ogen springen van het eind van een regel naar het begin van de volgende. 
+De ogen springen van het eind van een regel naar het begin van de volgende. Een goede regellengte en regelafstand zorgt voor goede leesbaarheid. 
 
 ![](leesbaarheid-regelsprongen.png)<br>
 
