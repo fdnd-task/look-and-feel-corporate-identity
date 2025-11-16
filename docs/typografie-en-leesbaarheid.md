@@ -68,7 +68,7 @@ Schrijf op het whiteboard per website de
 - [Fundamental text and font styling - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 - [Font properties en shorthand](https://css-tricks.com/almanac/properties/f/font/)
 
-
+<!--
 ## Micro- en macro-typografie (advanced)
 
 In typografie is er onderscheid tussen micro- en macro-typografie. Micro-typografie gaat over de details, zoals letters, spatiëring, _kerning_ en woordspatiëring.
@@ -101,7 +101,7 @@ Hou in je Learning Journal bij wat je hebt onderzocht en uitgeprobeerd.
 - [Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period)
 - [Typography properties - CSS Reference](https://cssreference.io/typography)
 - [Wrapping and Breaking text - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text)
-
+-->
 
 ## Font-family en lettertypes
 
@@ -201,8 +201,7 @@ Kopieer voor elk experiment deze HTML zodat je ze kan vergelijken:
 </section>
 ```
 
-De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een goede regellengte heeft 45–75 karakters, oftwel 10–12 woorden. 
-
+<!--De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een goede regellengte heeft 45–75 karakters, oftwel 10–12 woorden. -->
 Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10-12 woorden komt:
 
 - Behalve pixels zijn de *Absolute length units* niet geschikt voor het web, lukt het je toch om met `cm` of `mm` een regel van zo'n 10–12 woorden te maken? Hoeveel `px` is dat? 
