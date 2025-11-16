@@ -119,7 +119,7 @@ Fixatiepunten vereisen goede letterafstanden, woordspaties, regelbegin, en -leng
 
 <!-- Vrij naar Ton Bolder, uit Typografie, uitgangspunten, richtlijnen en techniek, blz 127 & 128 -->
 
-### Oogsprongem over letters of woorden
+### Oogsprongen over letters of woorden
 Terwijl onze ogen over de tekst bewegen, maken onze ogen een reeks heen en weer bewegingen die saccades worden genoemd, of sprongetjes over een regel tekst. Soms is het een grote sprongetje, soms is het een klein sprongetje.
 
 ![](leesbaarheid-oogsprongen.png)<br>
@@ -132,7 +132,7 @@ Tussen oogsprongen stoppen onze ogen voor een fractie van een seconde in wat een
 
 
 ### Regelsprongen
-De ogen springen van het eind van een regel naar het begin van de volgende. Een goede regellengte en regelafstand zorgt voor goede leesbaarheid. 
+De ogen springen aan het eind van een regel naar het begin van de volgende. Een goede regellengte, regelafstand en duidelijk begin van een regeld zorgt voor goede leesbaarheid. 
 
 ![](leesbaarheid-regelsprongen.png)<br>
 
