@@ -120,7 +120,7 @@ Fixatiepunten vereisen goede letterafstanden, woordspaties, regelbegin, en -leng
 <!-- Vrij naar Ton Bolder, uit Typografie, uitgangspunten, richtlijnen en techniek, blz 127 & 128 -->
 
 ### Oogsprongen over letters of woorden
-Terwijl onze ogen over de tekst bewegen, maken onze ogen een reeks heen en weer bewegingen die saccades worden genoemd, of sprongetjes over een regel tekst. Soms is het een grote sprongetje, soms is het een klein sprongetje.
+Terwijl onze ogen over de tekst bewegen, maken onze ogen een reeks heen en weer bewegingen die saccades worden genoemd, of sprongetjes over een regel tekst. Soms is het een groot sprongetje, soms is het een klein sprongetje.
 
 ![](leesbaarheid-oogsprongen.png)<br>
 
@@ -132,16 +132,16 @@ Tussen oogsprongen stoppen onze ogen voor een fractie van een seconde in wat een
 
 
 ### Regelsprongen
-De ogen springen aan het eind van een regel naar het begin van de volgende. Een goede regellengte, regelafstand en duidelijk begin van een regeld zorgt voor goede leesbaarheid. 
+De ogen springen aan het eind van een regel naar het begin van de volgende. Een goede regellengte, regelafstand en duidelijk begin van een regel zorgt voor goede leesbaarheid. 
 
 ![](leesbaarheid-regelsprongen.png)<br>
 
 
 ### Tips voor leesbare typografie
-- Gebruik geen `text-transform: uppercase` met allemaal hoofdletters hebben je ogen geen fixatiepunten
-- Gebruik altijd een `text-align: left` dan is het begin van de regels makkelijk te 'vinden', met gecentreerde teksten begint elke regel op een andere plek wat de regelsprongen van de ogen moeilijker maakt
-- Gebruik altijd genoeg `line-height`, dat maakt de regelsprong makkelijker. ls je witte tekst op een donkere achtergond hebt, het verstandig om meer line-height te gebruiken dan `1.4`
-- Gebruik geen `text-align: justify` dat ziet er aan de randen van een tekst misschien mooi uit, maar tusen de woorden zit verschillende ruimtes wat de oogsprongen moeilijker maakt
+- Gebruik geen `text-transform: uppercase`; met allemaal hoofdletters hebben je ogen geen fixatiepunten
+- Gebruik altijd een `text-align: left`; dan is het begin van de regels makkelijk te 'vinden', met gecentreerde teksten begint elke regel op een andere plek, wat de regelsprongen van de ogen moeilijker maakt
+- Gebruik altijd genoeg `line-height`; dat maakt de regelsprong makkelijker. Als je witte tekst op een donkere achtergrond hebt, is het verstandig om meer `line-height` te gebruiken dan `1.4`
+- Gebruik geen `text-align: justify`; dat ziet er aan de randen van een tekst misschien mooi uit, maar tusen de woorden zitten verschillende ruimtes wat de oogsprongen moeilijker maakt
 
 ### Bronnen 
 [How We Read by Jason Santa Maria](https://alistapart.com/article/how-we-read/)
@@ -167,13 +167,13 @@ Er bestaan verschillende soorten generieke font-families, zoals `serif`, `sans-s
 
 ### Schreef en schreefloze lettertypes
 
-'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus beter leesbaar zijn. Zo wordt de leesbaarheid van een tekst verbeterd, dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans-serif' of schreefloze-letters hebben geen schreef.
+'Serif' of schreef-letters hebben kleine uitsteeksels aan de stokken en staarten. Die zorgen ervoor dat letters beter van elkaar te onderscheiden zijn, en dus beter leesbaar zijn. Zo wordt de leesbaarheid van een tekst verbeterd. Dit was vooral van belang toen de drukpersen nog niet zo goed waren. 'Sans-serif' of schreefloze-letters hebben geen schreef.
 ![](serif-sans-serif.jpg) 
 *Het verschil tussen schreef (Serif) en schreef-loze (Sans-Serif) lettertypes.*
 
 ### Monospace lettertypes
 
-`Monospace` letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnt. Dit kan je daarom goed gebruiken voor het presenteren van getallen. (Voor getallen kun je ook `font-variant-numeric` gebruiken, als je lettertype dit ondersteunt.)
+`Monospace` letters zijn allemaal even breed. Voordeel hiervan is dat ze goed uitlijnen. Dit kan je daarom goed gebruiken voor het presenteren van getallen. (Voor getallen kun je ook `font-variant-numeric` gebruiken, als je lettertype dit ondersteunt.)
 
 ![](monospaced.png) 
 *Monospaced letters zijn allemaal even breed.*
@@ -200,7 +200,7 @@ Op deze manier kan je lettertypes gebruiken die niet standaard in een browser aa
 ### Opdracht
 
 Voor deze opdracht ga je zelf een font maken en gebruiken in CSS.
-Maak een pixel font met de online tool https://config.aresluna.org
+Maak je eigen _pixel font_ met de online tool https://config.aresluna.org
 
 Download het font als OTF font in een folder. Gebruik `@font-face` om het font te laden en gebruiken in CSS. Doe dit bijvoorbeeld op (een onderdeel van) je eigen I Love Web website. Let op: dit is niet het `woff2` format, maar het `opentype` format.
 
@@ -223,7 +223,7 @@ Er bestaan *absolute length units*, zoals de `px` (pixel).
 *Viewport relative units* zoals de `vw` en `vh`, die afhankelijk zijn van de breedte of hoogte van de viewport. 
 En nog veel meer ...
 
-De EM is een *Font-relative length units*. 
+De EM is een *Font-relative length unit*. 
 In oorsprong is het de breedte van de hoofdletter “M” van het lettertype. 
 De EM is een 'relative unit', het is afhankelijk van het font, de font-size en de DPI settings. 
 Het wordt vaak gebruikt voor de `font-size` en regellengte, omdat je in verhouding tot het font de typografische waardes kan bepalen. 
@@ -248,11 +248,11 @@ Kopieer voor elk experiment deze HTML zodat je ze kan vergelijken:
 ```
 
 <!--De beroemde grafisch ontwerper Robert Bringhurst komt tot het uitgangspunt: een goede regellengte heeft 45–75 karakters, oftwel 10–12 woorden. -->
-Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10-12 woorden komt:
+Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10–12 woorden komt:
 
 - Behalve pixels zijn de *Absolute length units* niet geschikt voor het web, lukt het je toch om met `cm` of `mm` een regel van zo'n 10–12 woorden te maken? Hoeveel `px` is dat? 
-- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? wat gebeurt er als je dezelfde tekst met een ander font gebruikt?
-- Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen`dvw` of `vmax`?
+- Gebruik daarna de *Font-relative length units*. Hoeveel `em` heb je nodig voor een goede regellengte? En in `ch` dan? Wat is het verschil als je `rem` gebruikt? Wat gebeurt er als je dezelfde tekst met een ander font gebruikt?
+- Experimenteer tot slot met *Viewport relative units* en *Container units*, zoals `vw` en `cqw`. En wat doen `dvw` of `vmax`?
 
 #### Bronnen
 
