@@ -137,6 +137,12 @@ De ogen springen aan het eind van een regel naar het begin van de volgende. Een 
 ![](leesbaarheid-regelsprongen.png)<br>
 
 
+### Tips voor leesbare typografie
+- Gebruik geen `text-transform: uppercase` met allemaal hoofdletters hebben je ogen geen fixatiepunten
+- Gebruik altijd een `text-align: left` dan is het begin van de regels makkelijk te 'vinden', met gecentreerde teksten begint elke regel op een andere plek wat de regelsprongen van de ogen moeilijker maakt
+- Gebruik altijd genoeg `line-height`, dat maakt de regelsprong makkelijker. ls je witte tekst op een donkere achtergond hebt, het verstandig om meer line-height te gebruiken dan `1.4`
+- Gebruik geen `text-align: justify` dat ziet er aan de randen van een tekst misschien mooi uit, maar tusen de woorden zit verschillende ruimtes wat de oogsprongen moeilijker maakt
+
 ### Bronnen 
 [How We Read by Jason Santa Maria](https://alistapart.com/article/how-we-read/)
 
