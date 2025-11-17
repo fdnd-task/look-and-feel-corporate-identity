@@ -28,7 +28,7 @@ Tot slot ga je oefenen met verschillende CSS units.
 
 “Web Design is 95% typography”
 
-Dit schrijft het designbureau IA.net. Een website bestaat niet alleen uit titels en de teksten, maar ook uitleg bij foto's, button, en bijvoorbeeld labels van formulier-elementen bevatten tekst. 
+Dit schrijft het designbureau IA.net. Een website bestaat niet alleen uit titels en de teksten, maar ook uitleg bij foto's, buttons, en bijvoorbeeld labels van formulier-elementen bevatten tekst. 
 
 In CSS bestaan veel *properties* om fonts goed vorm te geven, zoals `font-family`, `font-weight`, `font-stretch`, `font-variant`, `font-size`.
 
