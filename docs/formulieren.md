@@ -58,6 +58,5 @@ Bedenk voor je opdrachtgever welke formulierelementen je gaat toevoegen. Misschi
 
 Maak een issue aan voor dat onderdeel van de website, beschrijf wat je gaat maken, voeg je schetsen en ontwerpen toe, begin met een HTML prototype, ga door met een One Column Layout en maak uiteindelijk een responsive formulier, wat je ook test. Werk _gestructureerd_ en _iteratief_ en hergebruik hierbij elementen en styling uit de styleguide en gedeelde stylesheet. Als hierdoor wijzigingen komen in de styleguide, bespreek die dan met je team, en verdeel het werk.
 
-Hiermee werk je aan de [DoD](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/INSTRUCTIONS.md#definition-of-done) “Je hebt een formulier met verschillende formulier elementen ontworpen en gemaakt”.
 
 💯 In Semester 1 maken we vooral _prototypes_. In Semester 2 gaan we die ook werkend maken. Voor nu is het dus prima als je je alleen op de juiste HTML van je formulier focust.
