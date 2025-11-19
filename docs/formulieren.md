@@ -40,7 +40,7 @@ Op het whiteboard staan een aantal `<input>` types. Verdeel een aantal types eer
 
 ## De gedeelde stylesheet uitbreiden (30 minuten)
 
-De stylesheet die je samen met je projectgroep hebt gemaakt, bevat een aantal standaard formulierelementen. Waarschijnlijk heb je een deel al gestyled, en een deel nog niet. We gaan nu een aantal elementen samen stylen, waardoor ook formulierelementen en de interactie daarbinnen de _look & feel_ van de opdrachtgever krijgen.
+De styleguide die je samen met je projectgroep hebt gemaakt, bevat een aantal standaard formulierelementen. Waarschijnlijk heb je een deel al gestyled, en een deel nog niet. We gaan nu een aantal elementen samen stylen, waardoor ook formulierelementen en de interactie daarbinnen de _look & feel_ van de opdrachtgever krijgen.
 
 Via de `accent-color` property in CSS kun je de huisstijl van de opdrachtgever relatief makkelijk toepassen op een aantal invoervelden, zoals radio's en checkboxen. Met de _`:focus` selector_ kun je de _focus state_ van een invoerelement aanpassen. Beide staan beschreven in de bronnen hieronder. Overleg met je projectgroep hoe je deze twee toe kunt passen op een manier die ook herbruikbaar is in je eigen project (als je formulierelementen gebruikt). Bespreek ook weer welke _classnames_ je hiervoor gaat gebruiken. Verdeel eventueel de verschillende input types binnen het team, maak issues aan per type, en _assign_ deze aan de juiste teamleden. Kijk of je de _custom properties_ van bijvoorbeeld kleuren kunt hergebruiken binnen de styling voor de formulierelementen.
 
@@ -51,3 +51,11 @@ Via de `accent-color` property in CSS kun je de huisstijl van de opdrachtgever r
 - [accent-color @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
 - [:focus @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
 - [:user-invalid @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid)
+
+## Hoe nu verder?
+
+Bedenk voor je opdrachtgever welke formulierelementen je gaat toevoegen. Misschien is er wel een contactpagina, of een mogelijkheid tot reageren op artikelen, of een nieuwsbrief waar je je voor aan kunt melden, of een pagina waar je een profiel op kunt aanmaken? Maak dat onderdeel van de website, waarbij je elementen en styling uit de styleguide en gedeelde stylesheet hergebruikt.
+
+Hiermee werk je aan de [DoD](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/INSTRUCTIONS.md#definition-of-done) “Je hebt een formulier met verschillende formulier elementen ontworpen en gemaakt”.
+
+💯 In Semester 1 maken we vooral _prototypes_. In Semester 2 gaan we die ook werkend maken. Voor nu is het dus prima als je je alleen op de juiste HTML van je formulier focust.
