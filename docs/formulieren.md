@@ -52,7 +52,7 @@ Via de `accent-color` property in CSS kun je de huisstijl van de opdrachtgever r
 - [:focus @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
 - [:user-invalid @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid)
 
-## Hoe nu verder?
+## Hoe nu verder? (rest van de dag)
 
 Bedenk voor je opdrachtgever welke formulierelementen je gaat toevoegen. Misschien is er wel een contactpagina, of een mogelijkheid tot reageren op artikelen, of een nieuwsbrief waar je je voor aan kunt melden, of een pagina waar je een profiel op kunt aanmaken?
 
