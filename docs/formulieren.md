@@ -54,7 +54,7 @@ Via de `accent-color` property in CSS kun je de huisstijl van de opdrachtgever r
 
 ## Hoe nu verder?
 
-Bedenk voor je opdrachtgever welke formulierelementen je gaat toevoegen. Misschien is er wel een contactpagina, of een mogelijkheid tot reageren op artikelen, of een nieuwsbrief waar je je voor aan kunt melden, of een pagina waar je een profiel op kunt aanmaken? Maak een issue aan voor dat onderdeel van de website, voeg je schetsen toe, begin met een HTML prototype, One Column Layout en uiteindelijk responsive formulier, wat je ook test. Hergebruik hierbij elementen en styling uit de styleguide en gedeelde stylesheet.
+Bedenk voor je opdrachtgever welke formulierelementen je gaat toevoegen. Misschien is er wel een contactpagina, of een mogelijkheid tot reageren op artikelen, of een nieuwsbrief waar je je voor aan kunt melden, of een pagina waar je een profiel op kunt aanmaken? Maak een issue aan voor dat onderdeel van de website, beschrijf wat je gaat maken, voeg je schetsen en ontwerpen toe, begin met een HTML prototype, ga door met een One Column Layout en maak uiteindelijk een responsive formulier, wat je ook test. Werk gestructureerd en hergebruik hierbij elementen en styling uit de styleguide en gedeelde stylesheet. Als er hierdoor wijzigingen komen in de styleguide, bespreek die dan met je team, en verdeel het werk.
 
 Hiermee werk je aan de [DoD](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/INSTRUCTIONS.md#definition-of-done) “Je hebt een formulier met verschillende formulier elementen ontworpen en gemaakt”.
 
