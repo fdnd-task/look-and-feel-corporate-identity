@@ -4,8 +4,6 @@
 
 Deze week heb je geleerd hoe je een gezamenlijke styleguide toepast op jouw eigen leertaak. Daarnaast hebben jullie meer geleerd over typografie en formulieren. 
 
-<!-- Als er 40 studenten zijn, groepen van 3 maken. 14 groepen maken we dan. -->
-
 ### Aanpak
 
 Je gaat elkaars werk één voor één reviewen binnen jouw groep voor de opdrachtgever. Gebruik één laptop om de code te bekijken en een andere laptop om issues in te schieten. De onderstaande code- en design review voer je uit voor elk lid van jullie groep. 
