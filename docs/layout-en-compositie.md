@@ -81,7 +81,7 @@ Bekijk eerst *Law of Similarity* van de website Laws of UX . Lees daaran de arti
 
 ## Gestalt wetten toepassen op jouw ontwerp
 
-Na he tonderzoek en de presentaties ga je de drie wetten toepassen op jouw ontwerp. 
+Na het onderzoek en de presentaties ga je de drie wetten toepassen op jouw ontwerp. 
 
 Maak per wet variaties in Figma van jouw ontwerp. Je kan hiervoor een hele pagina redesignen of een onderdeel. Schrijf in Figma in comments wat je hebt gedaan. Leg je ontwerpkeuzes uit met behulp van de termen van de gestalt wetten.
 
