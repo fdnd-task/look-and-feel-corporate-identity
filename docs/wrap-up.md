@@ -10,7 +10,7 @@ Tijdens de *Wrap up* ga je voorbereiden waar je feedback op wil van de opdrachtg
 
 Bespreek met een andere student wat je donderdag wil laten zien tijdens de Sprint Review. Daarna doorloop je samen de Readme.
 
-Bespreek vandaag met een docent wat je donderdag gaat laten zien en wat je nog moet doen.
+Bespreek vandaag met een mentor wat je donderdag gaat laten zien en wat je nog moet doen.
 
 ### Sprint Review voorbereiden
 
