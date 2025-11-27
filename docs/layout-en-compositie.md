@@ -18,7 +18,7 @@ Gestalt psyhologie gaat over hoe de mens de wereld om zich heen waarneemt.
 Onze hersenen herkenen vormen en patronen, en ordenen zodoende alle informatie die we zien (en horen en voelen). 
 Een belangrijk Gestalt principes voor web design is *grouping*, oftewel het groeperen van informatie.
 
-Het Gestalt principes *grouping* bestaat uit een aantal "wetten", zoals
+Het Gestalt principe *grouping* bestaat uit een aantal "wetten", zoals
 - Law of Proximity, de wet van de nabijheid. Als elementen dicht bij elkaar staan, vinden onze hersenen dat deze bij elkaar horen.
 - Law of Similarity, de wet van gelijkheid. Onze hersenen vinden dat figuren die er hetzelfde uitzien bij elkaar horen.
 - Law of Continuity, de wet van continuïteit. We zien losse figuren die naast elkaar in een lijn of bocht lopen als een geheel.
